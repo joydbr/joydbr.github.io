@@ -870,6 +870,7 @@ thead {
     .xptab thead th {
         position: sticky;
         top: 0;
+        background-color: #7e7ea7c9;
     }
 
 
