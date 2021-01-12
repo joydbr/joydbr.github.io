@@ -873,7 +873,12 @@ thead {
         background-color: #7e7ea7c9;
     }
 
-
+    .blesscontent {
+        flex-direction: column;
+    }
+    .blesstab {
+        margin-bottom: 10px;
+    }
 
     footer {
         margin: 10px;
