@@ -331,6 +331,11 @@ header .fModels {
 .fPart img {
     border-radius: 50%;
 }
+
+.fcontent {
+    flex-direction: column;
+}
+
 #fFilters div {
     cursor: pointer;
 }
@@ -815,7 +820,7 @@ thead {
         flex-wrap: wrap;
     }
     .submenuteam a {
-        width: 30%;
+        width: 35%;
     }
 
 
