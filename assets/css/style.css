@@ -864,6 +864,16 @@ thead {
         width: 40px;
         margin-right: 3px;
     }
+    .xptabs {
+        flex-wrap: wrap;
+    }
+    .xptab thead th {
+        position: sticky;
+        top: 0;
+    }
+
+
+
     footer {
         margin: 10px;
         text-align: center;
