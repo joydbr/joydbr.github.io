@@ -790,5 +790,19 @@ thead {
 }
 
 @media (min-width:450px) and (max-width:800px) {
-    
+    .headerMenu nav {
+        flex-wrap: wrap;
+    }
+    .headerMenu a {
+        width: 25%;
+    }
+}
+
+@media (max-width:450px) {
+    .headerMenu nav {
+        flex-wrap: wrap;
+    }
+    .headerMenu a {
+        width: 25%;
+    }
 }
