@@ -905,6 +905,9 @@ thead {
     .evolstararea {
         display: block;
     }
+    .awakenrequire td {
+        padding: 0;
+    }
 
     .skapcont {
         display: block;
