@@ -562,6 +562,7 @@ falrocksoul.map ((item, index)=>{
 
 /* eight elements gates */
 
+/*
 eegdbap15.map((item, index)=>{
     let eegtdes = c('.eegdesc15').cloneNode(true);
 
@@ -573,3 +574,4 @@ eegdbap15.map((item, index)=>{
 
     c('.gatesap15 tbody').append(eegtdes);
 }); 
+*/
