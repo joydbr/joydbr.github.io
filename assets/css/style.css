@@ -722,7 +722,9 @@ header .fModels {
 .gatesaps th {
     padding: 5px 10px;
 }
-.gatesname15 {
+.gatesname15,
+.gatesname14,
+.gatesname13 {
     width: 150px;
 }
 .gatreqs {
