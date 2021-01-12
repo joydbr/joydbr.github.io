@@ -864,6 +864,22 @@ thead {
         width: 40px;
         margin-right: 3px;
     }
+
+    .promtab td {
+        padding: 0px;
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+    .promgold span {
+        vertical-align: inherit;
+        line-height: 1;
+    }
+    .promdescarea img {
+        width: 50px;
+        height: 50px;
+    }
+
+
     .xptabs {
         flex-wrap: wrap;
     }
@@ -880,6 +896,12 @@ thead {
         margin-bottom: 10px;
     }
 
+    
+    .evolstararea {
+        display: block;
+        margin: auto;
+    }
+    
     footer {
         margin: 10px;
         text-align: center;
