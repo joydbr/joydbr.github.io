@@ -824,6 +824,13 @@ thead {
     }
     .fcontentArea {
         display: flex;
+        flex-direction: column;
     }
-
+    .fFteam {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .filt {
+        width: 30%;
+    }
 }
