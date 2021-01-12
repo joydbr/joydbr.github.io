@@ -909,6 +909,17 @@ thead {
     .skapcont {
         display: block;
     }
+    .skilltab {
+        margin-bottom: 15px;
+    }
+
+    .fsoulcontent {
+        display: block;
+        margin-left: 15px;
+    }
+    .fsoulcontent div {
+        margin-bottom: 15px;
+    }
     
     footer {
         margin: 10px;
