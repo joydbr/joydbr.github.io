@@ -788,3 +788,7 @@ thead {
 .active {
     background-color: #b2b5b8c7;
 }
+
+@media (min-width:450px) and (max-width:800px) {
+    
+}
