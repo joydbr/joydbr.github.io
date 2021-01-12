@@ -332,10 +332,6 @@ header .fModels {
     border-radius: 50%;
 }
 
-.fcontent {
-    flex-direction: column;
-}
-
 #fFilters div {
     cursor: pointer;
 }
@@ -822,6 +818,12 @@ thead {
     .submenuteam a {
         width: 35%;
     }
-
+    
+    .fcontent {
+        flex-direction: column;
+    }
+    .fcontentArea {
+        display: flex;
+    }
 
 }
