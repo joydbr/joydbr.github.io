@@ -837,6 +837,7 @@ thead {
         position: inherit;
         width: auto;
         height: auto;
+        padding-right: 5px;
     }
     #fFilters div {
         width: auto;
