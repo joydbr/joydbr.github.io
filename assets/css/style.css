@@ -831,6 +831,30 @@ thead {
         flex-wrap: wrap;
     }
     .filt {
-        width: 30%;
+        margin-left: 20px;
     }
+    #fFilters {
+        position: inherit;
+        width: auto;
+        height: auto;
+    }
+    #fFilters div {
+        width: auto;
+    }
+
+    .fcontentArea {
+        margin-right: 5px;
+    }
+
+    .fAvatar img {
+        width: 100px;
+    }
+    .fSoul img {
+        width: 40px;
+    }
+    .fAp {
+        font-size: 18px;
+    }
+    .fPart {
+        width: auto;
 }
