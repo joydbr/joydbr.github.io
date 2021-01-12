@@ -874,6 +874,9 @@ thead {
         vertical-align: inherit;
         line-height: 1;
     }
+    .promdescarea {
+        line-height: 1;
+    }
     .promdescarea img {
         width: 50px;
         height: 50px;
@@ -896,10 +899,15 @@ thead {
         margin-bottom: 10px;
     }
 
-    
+    .evoldfarea {
+        margin: 5px;
+    }
     .evolstararea {
         display: block;
-        margin: auto;
+    }
+
+    .skapcont {
+        display: block;
     }
     
     footer {
