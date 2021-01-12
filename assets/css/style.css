@@ -709,6 +709,10 @@ header .fModels {
 .gatescontent {
     margin-top: 25px;
 }
+.gatesapmenus a {
+    flex: 1;
+    text-align: center;
+}
 
 .gatesaps {
     margin-top: 5px;
