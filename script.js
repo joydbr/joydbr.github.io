@@ -562,9 +562,9 @@ falrocksoul.map ((item, index)=>{
 
 /* eight elements gates */
 
-/*
+
 eegdbap15.map((item, index)=>{
-    let eegtdes = c('.eegdesc15').cloneNode(true);
+    let eegtdes = c('.gatesap15 .gatesaps').cloneNode(true);
 
     eegtdes.querySelector('.gatesname15').innerHTML = item.gate;
     eegtdes.querySelector('.gat15req1').innerHTML = item.req[0];
@@ -572,6 +572,5 @@ eegdbap15.map((item, index)=>{
     eegtdes.querySelector('.gat15req3').innerHTML = item.req[2];
 
 
-    c('.gatesap15 tbody').append(eegtdes);
-}); 
-*/
+    c('.gatesap15').append(eegtdes);
+});
