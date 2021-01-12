@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <title>KOF GLO</title>
+</head>
+<body>
+
+    <header>
+        <div class="headerArea">
+            <div class="headerBanner"><img src="" alt="" /></div>
+            <div class="headerMenu">
+                <nav>
+                    <a href="index.html">HOME</a>
+                    <a href="team.html">Team</a>
+                    <a href="fighters.html">Fighters</a>
+                    <a href="">Raid</a>
+                    <a href="">Town</a>
+                    <a href="">Challenges</a>
+                    <a href="">Misc</a>
+                </nav>
+            </div>
+        </div>
+        <div class="fModels show">
+            <div class="fArea dflex">
+                <a href="">
+                <div class="fAvatar"><img src="" alt="" /></div>
+                </a>
+                <div class="fInfo dflex">
+                    <div class="fId dflex">
+                        <div class="fType"><img src="" alt="" /></div>
+                        <div class="fName">Fighter name</div>
+                    </div>
+                    <div class="fCarac dflex">
+                        <div class="fAp">15</div>
+                        <div class="fSoul"><img src="" alt="" /></div>
+                        <div class="fPart dflex">
+                            <div class="fPar1"><a href=""><img src="" alt="" /></a></div>
+                            <div class="fPar2"><a href=""><img src="" alt="" /></a></div>
+                            <div class="fPar3"><a href=""><img src="" alt="" /></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+    <main>
+        <section class="submenuteam" id="fmarea">
+            <nav>
+                <a class="flist fmenu" href="" onclick="menuSelect('fightersarea')">Fighters List</a>
+                <a class="fprom fmenu" href="" onclick="menuSelect('fpromArea')">Promote</a>
+                <a class="fup fmenu" href="" onclick="menuSelect('fupArea')">Upgrade</a>
+                <a class="fequipment fmenu" href="" onclick="menuSelect('fequipmentArea')">Equipment</a>
+                <a class="fevol fmenu" href="" onclick="menuSelect('fevolArea')">Evolve</a>
+                <a class="fskill fmenu" href="" onclick="menuSelect('fskillArea')">Skill</a>
+                <a class="fsouls fmenu" href="" onclick="menuSelect('fsoulsArea')">Fighsoul</a>
+                <a class="fgates fmenu" href="" onclick="menuSelect('fgatesArea')">Eight Elements</a>
+                <a class="faids fmenu" href="" onclick="menuSelect('faidsArea')">Aid Support</a>
+            </nav>
+        </section>
+        <section class="fcontainerArea">
+            <section class="flistArea menusArea dflex">
+                <section class="fightersarea tmenus">
+                    <section class="dflex">
+                        <div id="fFilters" class="dflex">
+                            <h1>Filters:</h1>
+                            <section class="fFAp dflex">
+                                <span>Aptitude:</span>
+                                <div class="ffap15 filt" onclick="filtSelect('15')">15</div>
+                                <div class="ffap14 filt" onclick="filtSelect('14')">14</div>
+                                <div class="ffap13 filt" onclick="filtSelect('13')">13</div>
+                                <div class="ffap1211 filt" onclick="filtSelect('12')">12/11</div>
+                            </section>
+                            <section class="fFType dflex">
+                                <span>Type:</span>
+                                <div class="fFTdps filt" onclick="filtSelect('dps')"><img src="assets/images/types/tdps.png" alt=""></div>
+                                <div class="fFTgank filt" onclick="filtSelect('gank')"><img src="assets/images/types/tgank.png" alt=""></div>
+                                <div class="fFTtank filt" onclick="filtSelect('tank')"><img src="assets/images/types/ttank.png" alt=""></div>
+                            </section>
+                            <section class="fFSoul dflex">
+                                <span>Soul:</span>
+                                <div class="fFSbear filt"  onclick="filtSelect('bear')"><img src="assets/images/souls/sbear.png" alt=""></div>
+                                <div class="fFStiger filt" onclick="filtSelect('tiger')"><img src="assets/images/souls/stiger.png" alt=""></div>
+                                <div class="fFStortoise filt" onclick="filtSelect('tortoise')"><img src="assets/images/souls/stortoise.png" alt=""></div>
+                                <div class="fFSviper filt" onclick="filtSelect('viper')"><img src="assets/images/souls/sviper.png" alt=""></div>
+                                <div class="fFSother filt" onclick="filtSelect('other')"><img src="assets/images/souls/sother.png" alt=""></div>
+                            </section>
+                            <section class="fFGe dflex">
+                                <span>Gender:</span>
+                                <div class="fFGmale filt" onclick="filtSelect('male')">♂</div>                    
+                                <div class="fFGfemale filt" onclick="filtSelect('femal')">♀</div>
+                                <div class="fFGfluid filt" onclick="filtSelect('fluid')">⚥</div>
+                            </section>
+                            <section class="fFteam dflex">
+                                <span>Other:</span>
+                                <div class="fFcap filt" onclick="filtSelect('captain')">Captain</div>
+                                <div class="fFiskill filt" onclick="filtSelect('iskill')">Interfere Skill</div>
+                                <div class="fFprota filt" onclick="filtSelect('prota')">Protagonist</div>
+                                <div class="fForochi filt" onclick="filtSelect('orochi')">Orochi's Blood</div>
+                                <div class="fFflame filt" onclick="filtSelect('flame')">Flame</div>
+                                <div class="fFheal filt" onclick="filtSelect('heal')">Healing Power</div>
+                                <div class="fFikari filt" onclick="filtSelect('ikari')">Ikari Team</div>
+                                <div class="fFryu filt" onclick="filtSelect('ryu')">Kyokugenryu</div>
+                                <div class="fFaid filt" onclick="filtSelect('aid')">Aid</div>
+                                <div class="fFall filt active" onclick="filtSelect('all')">All Fighters</div>
+                            </section>                
+                        </div>
+                        <section class="fcontentArea">
+                                
+                        </section>
+                    </section>                        
+                </section>
+                <section class="fpromArea tmenus">
+                    <h1>Promotion requirements</h1>
+                    <div class="prommenufilt dflex" id="menuprom">
+                        <a href="" class="prommenu15 promfilt" onclick="promaps('promap15')">AP 15</a>
+                        <a href="" class="prommenu14 promfilt" onclick="promaps('promap14')"> AP 14</a>
+                        <a href="" class="prommenu13 promfilt" onclick="promaps('promap13')">AP 13/12/11</a>
+                    </div>
+                    <div class="promtabarea">
+                        <div  class="prommenu promap15">
+                            <table class="promtab intercol">
+                                <tbody>
+                                    <tr class="tablinemodel">
+                                        <td class="promlv"><span>Title</span></td>
+                                        <td class="promep">
+                                            <div class="promdescarea dflex">
+                                                <div class="promdesc dflex epdesc">
+                                                    <span>8000</span>
+                                                    <span>Enhance Potion</span>
+                                                </div>
+                                                <img src="assets/images/upgrades/ep.jpg" alt="" />
+                                            </div>
+                                        </td>
+                                        <td class="promi1">
+                                            <div class="promdescarea dflex">
+                                                <div class="promdesc dflex im1">
+                                                    <span>8000</span>
+                                                    <span>Enhance Potion</span>
+                                                </div>
+                                                <img src="" alt="" />
+                                            </div>
+                                        </td>
+                                        <td class="promi2">
+                                            <div class="promdescarea dflex">
+                                                <div class="promdesc dflex im2">
+                                                    <span>8000</span>
+                                                    <span>Enhance Potion</span>
+                                                </div>
+                                                <img src="" alt="" />
+                                            </div>
+                                        </td>
+                                        <td class="promi3">
+                                            <div class="promdescarea dflex">
+                                                <div class="promdesc dflex im3">
+                                                    <span>8000</span>
+                                                    <span>Enhance Potion</span>
+                                                </div>
+                                                <img src="" alt="" />
+                                            </div>
+                                        </td>
+                                        <td class="promgold">
+                                            <span>200000</span>
+                                            <img src="assets/images/misc/coin_icon.png" alt="" />
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div  class="prommenu promap14">
+                            <table class="promtab intercol">
+                                <tbody>
+                                    <tr class="tablinemodel">
+                                        <td class="promlv"><span>Title</span></td>
+                                        <td class="promep">
+                                            <div class="promdescarea">
+                                                <div class="promdesc epdesc">
+                                                    <span>8000</span>
+                                                    <span>Enhance Potion</span>
+                                                </div>
+                                                <img src="assets/images/upgrades/ep.jpg" alt="" />
+                                            </div>
+                                        </td>
+                                        <td class="promi1">
+                                            <div class="promdescarea">
+                                                <div class="promdesc im1">
+                                                    <span>8000</span>
+                                                    <span>Enhance Potion</span>
+                                                </div>
+                                                <img src="" alt="" />
+                                            </div>
+                                        </td>
+                                        <td class="promi2">
+                                            <div class="promdescarea">
+                                                <div class="promdesc im2">
+                                                    <span>8000</span>
+                                                    <span>Enhance Potion</span>
+                                                </div>
+                                                <img src="" alt="" />
+                                            </div>
+                                        </td>
+                                        <td class="promi3">
+                                            <div class="promdescarea">
+                                                <div class="promdesc im3">
+                                                    <span>8000</span>
+                                                    <span>Enhance Potion</span>
+                                                </div>
+                                                <img src="" alt="" />
+                                            </div>
+                                        </td>
+                                        <td class="promgold">
+                                            <span>200000</span>
+                                            <img src="assets/images/misc/coin_icon.png" alt="" />
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div  class="prommenu promap13">
+                            <table class="promtab intercol">
+                                <tbody>
+                                    <tr class="tablinemodel">
+                                        <td class="promlv"><span>Title</span></td>
+                                        <td class="promep">
+                                            <div class="promdescarea">
+                                                <div class="promdesc epdesc">
+                                                    <span>8000</span>
+                                                    <span>Enhance Potion</span>
+                                                </div>
+                                                <img src="assets/images/upgrades/ep.jpg" alt="" />
+                                            </div>
+                                        </td>
+                                        <td class="promi1">
+                                            <div class="promdescarea">
+                                                <div class="promdesc im1">
+                                                    <span>8000</span>
+                                                    <span>Enhance Potion</span>
+                                                </div>
+                                                <img src="" alt="" />
+                                            </div>
+                                        </td>
+                                        <td class="promi2">
+                                            <div class="promdescarea">
+                                                <div class="promdesc im2">
+                                                    <span>8000</span>
+                                                    <span>Enhance Potion</span>
+                                                </div>
+                                                <img src="" alt="" />
+                                            </div>
+                                        </td>
+                                        <td class="promi3">
+                                            <div class="promdescarea">
+                                                <div class="promdesc im3">
+                                                    <span>8000</span>
+                                                    <span>Enhance Potion</span>
+                                                </div>
+                                                <img src="" alt="" />
+                                            </div>
+                                        </td>
+                                        <td class="promgold">
+                                            <span>200000</span>
+                                            <img src="assets/images/misc/coin_icon.png" alt="" />
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>                    
+                </section>
+                <section class="fupArea tmenus">
+                    <h1>Experience upgrade requirements</h1>
+                    <div class="dflex">
+                        <table class="xptab intercol difcol xptab15">
+                            <thead>
+                                <tr>
+                                    <th>Lv</td>
+                                    <th>AP 15</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="upxpinfo">
+                                    <td class="xplv">119</td>
+                                    <td class="xpnum">100000000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="xptab intercol difcol xptab14">
+                            <thead>
+                                <tr>
+                                    <th>Lv</td>
+                                    <th>AP 14</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="upxpinfo">
+                                    <td class="xplv">119</td>
+                                    <td class="xpnum">100000000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="xptab intercol difcol xptab13">
+                            <thead>
+                                <tr>
+                                    <th>Lv</td>
+                                    <th>AP 13</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="upxpinfo">
+                                    <td class="xplv">119</td>
+                                    <td class="xpnum">100000000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="xptab intercol difcol xptab12">
+                            <thead>
+                                <tr>
+                                    <th>Lv</td>
+                                    <th>AP 12</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="upxpinfo">
+                                    <td class="xplv">119</td>
+                                    <td class="xpnum">100000000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                <section class="fequipmentArea tmenus">
+                    <div class="fequipmenus dflex" id="equipmenufilt">
+                        <a href="" class="equipenhan equipmenu" onclick="equipmenufilt('enhanceArea')">Enhance</a>
+                        <a href="" class="equipawak equipmenu" onclick="equipmenufilt('awakenArea')">Awaken</a>
+                        <a href="" class="equipbless equipmenu" onclick="equipmenufilt('blessArea')">Bless</a>
+                    </div>
+                    <div class="fequipcontent">
+                        <div class="enhanceArea equipmenus">
+                            <h1>Equipment Enhance requirements</h1>
+                            <div class="enhancefilt dflex" id="eemenufilter">
+                                <a href="" class="enhanceap15 enhancefi" onclick="eemenuap('eqq15')">Ap 15</a>
+                                <a href="" class="enhanceap14 enhancefi" onclick="eemenuap('eqq14')">Ap 14</a>
+                                <a href="" class="enhanceap13 enhancefi" onclick="eemenuap('eqq13')">AP 13/12/11</a>
+                            </div>
+                            <div class="enhancecontent">
+                                <h2>To upgrade Bagde/Tome there is a charge in gold per item by quality: <br/> green = 30xp/1500gold, blue = 150xp/7500gold, purple = 500xp/25000gold. </h1>
+                                <div class="eqq15 enhanceaps">
+                                    <table class="enhantab intercol difcol">
+                                        <thead>
+                                            <tr>
+                                                <th>Lv</th>
+                                                <th>Weapon <img src="assets/images/upgrades/weapon.jpg" alt=""></th>
+                                                <th>Coat <img src="assets/images/upgrades/coat.jpg" alt=""></th>
+                                                <th>Pants <img src="assets/images/upgrades/pants.jpg" alt=""> | Boots <img src="assets/images/upgrades/boots.jpg" alt=""></th>
+                                                <th>Badge <img src="assets/images/upgrades/badge.jpg" alt=""> | Tome <img src="assets/images/upgrades/tome.jpg" alt=""></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="enhantabinfo">
+                                                <td class="enhantablv">2</td>
+                                                <td class="enhantabwea">5000</td>
+                                                <td class="enhantabcoa">3300</td>
+                                                <td class="enhantabpan">2500</td>
+                                                <td class="enhantabxp">15</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="eqq14 enhanceaps">
+                                    <table class="enhantab intercol difcol">
+                                        <thead>
+                                            <tr>
+                                                <th>Lv</th>
+                                                <th>Weapon <img src="assets/images/upgrades/weapon.jpg" alt=""></th>
+                                                <th>Coat <img src="assets/images/upgrades/coat.jpg" alt=""></th>
+                                                <th>Pants <img src="assets/images/upgrades/pants.jpg" alt=""> | Boots <img src="assets/images/upgrades/boots.jpg" alt=""></th>
+                                                <th>Badge <img src="assets/images/upgrades/badge.jpg" alt=""> | Tome <img src="assets/images/upgrades/tome.jpg" alt=""></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="eqq13 enhanceaps">
+                                    <table class="enhantab intercol difcol">
+                                        <thead>
+                                            <tr>
+                                                <th>Lv</th>
+                                                <th>Weapon <img src="assets/images/upgrades/weapon.jpg" alt=""></th>
+                                                <th>Coat <img src="assets/images/upgrades/coat.jpg" alt=""></th>
+                                                <th>Pants <img src="assets/images/upgrades/pants.jpg" alt=""> | Boots <img src="assets/images/upgrades/boots.jpg" alt=""></th>
+                                                <th>Badge <img src="assets/images/upgrades/badge.jpg" alt=""> | Tome <img src="assets/images/upgrades/tome.jpg" alt=""></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="awakenArea equipmenus">
+                            <div class="awakencont">
+                                <h1>Equipment Awaken requirements</h1>
+                                <h1>After reach 5 stars Bagde/Tome unlock quenching, is required 34 Badge/Tome to max out each.</h1>
+                                <table class="awakenrequire intercol difcol">
+                                    <thead>
+                                        <tr>
+                                            <th>Ap</th>
+                                            <th>Equip lv</th>
+                                            <th>Weapon <img src="assets/images/upgrades/weapon.jpg" alt=""></th>
+                                            <th colspan="2">Coat <img src="assets/images/upgrades/coat.jpg" alt=""> Pants <img src="assets/images/upgrades/pants.jpg" alt=""> Boots <img src="assets/images/upgrades/boots.jpg" alt=""></th>
+                                            <th>Badge <img src="assets/images/upgrades/badge.jpg" alt=""> Tome <img src="assets/images/upgrades/tome.jpg" alt=""></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="5">15/14</td>
+                                            <td>★</td>
+                                            <td>1 <img src="assets/images/upgrades/weapon.jpg" alt=""> 2 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td colspan="2">2 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>1 <img src="assets/images/upgrades/badge.jpg" alt=""> 2 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                        </tr>
+                                        <tr>
+                                            <td>★★</td>
+                                            <td>1 <img src="assets/images/upgrades/weapon.jpg" alt=""> 4 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td colspan="2">4 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>1 <img src="assets/images/upgrades/badge.jpg" alt=""> 4 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                        </tr>
+                                        <tr>
+                                            <td>★★★</td>
+                                            <td>2 <img src="assets/images/upgrades/weapon.jpg" alt=""> 8 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td colspan="2">8 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>2 <img src="assets/images/upgrades/badge.jpg" alt=""> 8 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                        </tr>
+                                        <tr>
+                                            <td>★★★★</td>
+                                            <td>-</td>
+                                            <td colspan="2">16 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>2 <img src="assets/images/upgrades/badge.jpg" alt=""> 16 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                        </tr>
+                                        <tr>
+                                            <td>★★★★★</td>
+                                            <td>-</td>
+                                            <td colspan="2">32 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>2 <img src="assets/images/upgrades/badge.jpg" alt=""> 32 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class="awakenrequire intercol difcol">
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="5">13/12 (Weapon)</td>
+                                            <td>★</td>
+                                            <td>1 <img src="assets/images/upgrades/weapon.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td colspan="2">1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>1 <img src="assets/images/upgrades/badge.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                        </tr>
+                                        <tr>
+                                            <td>★★</td>
+                                            <td>1 <img src="assets/images/upgrades/weapon.jpg" alt=""> 2 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td colspan="2">2 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>1 <img src="assets/images/upgrades/badge.jpg" alt=""> 2 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                        </tr>
+                                        <tr>
+                                            <td>★★★</td>
+                                            <td>-</td>
+                                            <td colspan="2">4 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>1 <img src="assets/images/upgrades/badge.jpg" alt=""> 4 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                        </tr>
+                                        <tr>
+                                            <td>★★★★</td>
+                                            <td>-</td>
+                                            <td colspan="2">8 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>1 <img src="assets/images/upgrades/badge.jpg" alt=""> 8 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                        </tr>
+                                        <tr>
+                                            <td>★★★★★</td>
+                                            <td>-</td>
+                                            <td colspan="2">16 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>-</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class="awakenrequire intercol difcol">
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="5">13/12/11 <br/> (no Weapon)</td>
+                                            <td>★</td>
+                                            <td>2 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>1 <img src="assets/images/upgrades/badge.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                        </tr>
+                                        <tr>
+                                            <td>★★</td>
+                                            <td>4 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>2 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>1 <img src="assets/images/upgrades/badge.jpg" alt=""> 2 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                        </tr>
+                                        <tr>
+                                            <td>★★★</td>
+                                            <td>8 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>4 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>★★★★</td>
+                                            <td>16 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>8 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>★★★★★</td>
+                                            <td>32 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>16 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>-</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="blessArea equipmenus">
+                            <div class="blesscontent dflex">
+                                <table class="blesstab intercol difcol">
+                                    <thead>
+                                        <tr>
+                                            <th>Lv</th>
+                                            <th>Bless Crystals</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        
+                                    </tbody>
+                                    <tfoot>
+                                        <tr class="blessline">
+                                            <td class="blv">1</td>
+                                            <td class="bwc">100</td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                                <table class="blesstab intercol difcol">
+                                    <thead>
+                                        <tr>
+                                            <th>Equipment</th>
+                                            <th>Upgrade Attributes in</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Weapon & Coat</td>
+                                            <td>KOF tournament</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pants & Boots</td>
+                                            <td>Arena</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Badge & Tome</td>
+                                            <td>Club Battle</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="fevolArea tmenus">
+                    <h1>Requirements to evolve a fighter.</h1>
+                    <div class="evolstararea dflex">
+                        <table class="evoltab intercol difcol">
+                            <thead>
+                                <tr>
+                                    <th>Ap 15</th>
+                                    <th><img src="assets/images/upgrades/pf.jpg" alt="" /></th>
+                                    <th><img src="assets/images/misc/coin_icon.png" alt="" /></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>to ★★★★</td>
+                                    <td>80</td>
+                                    <td>200000</td>
+                                </tr>
+                                <tr>
+                                    <td>to ★★★★★</td>
+                                    <td>180</td>
+                                    <td>600000</td>
+                                </tr>
+                                <tr>
+                                    <td>to ★★★★★★</td>
+                                    <td>280</td>
+                                    <td>1200000</td>
+                                </tr>
+                                <tr>
+                                    <td>to ★★★★★★★</td>
+                                    <td>420</td>
+                                    <td>2000000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="evoltab intercol difcol">
+                            <thead>
+                                <tr>
+                                    <th>Ap 14</th>
+                                    <th><img src="assets/images/upgrades/pf.jpg" alt="" /></th>
+                                    <th><img src="assets/images/misc/coin_icon.png" alt="" /></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>to ★★★★</td>
+                                    <td>80</td>
+                                    <td>200000</td>
+                                </tr>
+                                <tr>
+                                    <td>to ★★★★★</td>
+                                    <td>150</td>
+                                    <td>600000</td>
+                                </tr>
+                                <tr>
+                                    <td>to ★★★★★★</td>
+                                    <td>240</td>
+                                    <td>1200000</td>
+                                </tr>
+                                <tr>
+                                    <td>to ★★★★★★★</td>
+                                    <td>360</td>
+                                    <td>2000000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="evoltab intercol difcol">
+                            <thead>
+                                <tr>
+                                    <th>Ap 13/12/11</th>
+                                    <th><img src="assets/images/upgrades/pf.jpg" alt="" /></th>
+                                    <th><img src="assets/images/misc/coin_icon.png" alt="" /></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>to ★★</td>
+                                    <td>10</td>
+                                    <td>10000</td>
+                                </tr>
+                                <tr>
+                                    <td>to ★★★</td>
+                                    <td>30</td>
+                                    <td>50000</td>
+                                </tr>
+                                <tr>
+                                    <td>to ★★★★</td>
+                                    <td>50</td>
+                                    <td>200000</td>
+                                </tr>
+                                <tr>
+                                    <td>to ★★★★★</td>
+                                    <td>100</td>
+                                    <td>600000</td>
+                                </tr>
+                                <tr>
+                                    <td>to ★★★★★★</td>
+                                    <td>160</td>
+                                    <td>1200000</td>
+                                </tr>
+                                <tr>
+                                    <td>to ★★★★★★★</td>
+                                    <td>240</td>
+                                    <td>2000000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="evoldfarea">
+                        <div class="evoldesc">
+                            <h1>To unlock Dark Force Awake the fighter must be 7 stars.</h1>
+                        </div>
+                        <table class="dfah intercol difcol">
+                            <thead>
+                                <tr>
+                                    <th>Attribute</th>
+                                    <th colspan="4"><img src="" alt="" /> Dark Power</th>
+                                    <th colspan="4"><img src="" alt="" /> God Defense</th>
+                                    <th colspan="4"><img src="" alt="" /> Taboo Drug</th>
+                                </tr>
+                                <tr>
+                                    <th>Lv</th>
+                                    <th>Frag</th>
+                                    <th>Atk</th>
+                                    <th>Crit</th>
+                                    <th>Pierce Rate</th>
+                                    <th>Frag</th>
+                                    <th>Def</th>
+                                    <th>Damage</th>
+                                    <th>Res Rate</th>
+                                    <th>Frag</th>
+                                    <th>HP</th>
+                                    <th>Block</th>
+                                    <th>Anti-Crit</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="statsmodel">
+                                    <td class="dfalv">1</td>
+                                    <td class="dpfs">-</td>
+                                    <td class="dpsta1">15</td>
+                                    <td class="dpsta2">0.2%</td>
+                                    <td class="dpsta3">0.1%</td>
+                                    <td class="gdfs">-</td>
+                                    <td class="gdsta1">8</td>
+                                    <td class="gdsta2">0.08%</td>
+                                    <td class="gdsta3">0.08%</td>
+                                    <td class="tdfs">-</td>
+                                    <td class="tdsta1">50</td>
+                                    <td class="tdsta2">0.2%</td>
+                                    <td class="tdsta3">0.1%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                <section class="fskillArea tmenus">
+                    <h1>Requirements to level up skills</h1>
+                    <div class="skfilters dflex" id="skmenus">
+                        <a href="" class="skfilter nolink" onclick="skmenuap('skillsap1514')">Ap 15 & 14</a>
+                        <a href="" class="skfilter nolink" onclick="skmenuap('skillsap1312')">Ap 13 & 12</a>
+                    </div>
+                    <div class="fskillcontent dflex">
+                        <div class="skillsap1514 skmenu">
+                            <div class="skapcont dflex">
+                                <div class="skillap15">
+                                    <table class="skilltab intercol difcol">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="5">AP 15</th>
+                                            </tr>
+                                            <tr>
+                                                <th>Lv</th>
+                                                <th>Passive Skill</th>
+                                                <th>Ultimate Skill</th>
+                                                <th>
+                                                    <span>Minor Skill</span>
+                                                    <hr>
+                                                    <span>Enhancement atk/hp</span>
+                                                </th>
+                                                <th>
+                                                    <span>DMG Deepen</span>
+                                                    <hr>
+                                                    <span>DMG Reduction</span>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="skilltabcont15">
+                                            <tr class="skilltabinfo">
+                                                <td class="skilltablv">?</td>
+                                                <td class="skilltabpass">?</td>
+                                                <td class="skilltabult">?</td>
+                                                <td class="skilltabsk">?</td>
+                                                <td class="skilltabdmg">?</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="skillap14">
+                                    <table class="skilltab intercol difcol">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="5">AP 14</th>
+                                            </tr>
+                                            <tr>
+                                                <th>Lv</th>
+                                                <th>Passive Skill</th>
+                                                <th>Ultimate Skill</th>
+                                                <th>
+                                                    <span>Minor Skill</span>
+                                                    <hr>
+                                                    <span>Enhancement atk/hp</span>
+                                                </th>
+                                                <th>
+                                                    <span>DMG Deepen</span>
+                                                    <hr>
+                                                    <span>DMG Reduction</span>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="skilltabcont14">
+                                            <tr class="skilltabinfo">
+                                                <td class="skilltablv">?</td>
+                                                <td class="skilltabpass">?</td>
+                                                <td class="skilltabult">?</td>
+                                                <td class="skilltabsk">?</td>
+                                                <td class="skilltabdmg">?</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skillsap1312 skmenu">
+                            <div class="skapcont dflex">
+                                <div class="skillap13">
+                                    <table class="skilltab intercol difcol">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="5">AP 13</th>
+                                            </tr>
+                                            <tr>
+                                                <th>Lv</th>
+                                                <th>Passive Skill</th>
+                                                <th>Ultimate Skill</th>
+                                                <th>
+                                                    <span>Minor Skill</span>
+                                                    <hr>
+                                                    <span>Enhancement atk/hp</span>
+                                                </th>
+                                                <th>
+                                                    <span>DMG Deepen</span>
+                                                    <hr>
+                                                    <span>DMG Reduction</span>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="skilltabcont13">
+                                            <div class="noshow">
+                                                <tr class="skilltabinfo">
+                                                    <td class="skilltablv">?</td>
+                                                    <td class="skilltabpass">?</td>
+                                                    <td class="skilltabult">?</td>
+                                                    <td class="skilltabsk">?</td>
+                                                    <td class="skilltabdmg">?</td>
+                                                </tr>
+                                            </div>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div  class="skillap12">
+                                    <table class="skilltab intercol difcol">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="5">AP 12</th>
+                                            </tr>
+                                            <tr>
+                                                <th>Lv</th>
+                                                <th>Passive Skill</th>
+                                                <th>Ultimate Skill</th>
+                                                <th>
+                                                    <span>Minor Skill</span>
+                                                    <hr>
+                                                    <span>Enhancement atk/hp</span>
+                                                </th>
+                                                <th>
+                                                    <span>DMG Deepen</span>
+                                                    <hr>
+                                                    <span>DMG Reduction</span>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="skilltabcont12">
+                                            <div class="noshow">
+                                                <tr class="skilltabinfo">
+                                                    <td class="skilltablv">?</td>
+                                                    <td class="skilltabpass">?</td>
+                                                    <td class="skilltabult">?</td>
+                                                    <td class="skilltabsk">?</td>
+                                                    <td class="skilltabdmg">?</td>
+                                                </tr>
+                                            </div>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="fsoulsArea tmenus">
+                    <h1>Requirements to upgrade FighSouls</h1>
+                    <div class="fsoulcontent dflex">
+                        <div class="tablemodelfs noshow">
+                            <table class="fstabs intercol">
+                                <tbody>
+                                    <tr class="fstrmodel">
+                                        <td class="fslv">1</td>
+                                        <td class="fseap15">60</td>
+                                        <td class="fseap14">45</td>
+                                        <td class="fseap13">30</td>
+                                        <td class="fseap12">15</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="fsoularea">
+                            <table class="fstabs intercol difcol">
+                                <thead>
+                                    <th>Fighter Soul</th>
+                                    <th>Ap 15</th>
+                                    <th>Ap 14</th>
+                                    <th>Ap 13</th>
+                                    <th>Ap 12</th>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="fpharea">
+                            <table class="fstabs intercol difcol bggreen">
+                                <thead>
+                                    <th>Poisonous Herb</th>
+                                    <th>Ap 15</th>
+                                    <th>Ap 14</th>
+                                    <th>Ap 13</th>
+                                    <th>Ap 12</th>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="fsfarea">
+                            <table class="fstabs intercol difcol bggreen">
+                                <thead>
+                                    <th>Falcon Soul</th>
+                                    <th>Ap 15</th>
+                                    <th>Ap 14</th>
+                                    <th>Ap 13</th>
+                                    <th>Ap 12</th>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="fsrsarea">
+                            <table class="fstabs intercol difcol bgyellow">
+                                <thead>
+                                    <th>Rock Solid Soul</th>
+                                    <th>Ap 15</th>
+                                    <th>Ap 14</th>
+                                    <th>Ap 13</th>
+                                    <th>Ap 12</th>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                <section class="fgatesArea tmenus">
+                    <h1>Requirements for the 8 Elements/Gates</h1>
+                    <div class="gatesArea">
+                        <div class="gatescontent">
+                            <div class="gatesapmenus dflex" id="">
+                                <a href="" class=" nolink" onclick="">AP 15</a>
+                                <a href="" class=" nolink" onclick="">AP 14</a>
+                                <a href="" class=" nolink" onclick="">AP 12</a>
+                            </div>
+                            <div class="gatesap15 gatesmenus">
+                                <table class="gatesaps intercol difcol">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="5">8 Elements/Gates for AP 15</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Description</th>
+                                            <th>Requirements</th>
+                                            <th>Lv</th>
+                                            <th>Items</th>
+                                            <th>Gold</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="eegdesc15">
+                                            <td rowspan="7" class="gatesname15">Element Name</td>
+                                            <td rowspan="7" class="gatreqs">
+                                                <div class="gat15req1">Requirements for the 8 Elements/Gates</div>
+                                                <div class="gat15req2">Requirements for the 8 Elements/Gates</div>
+                                                <div class="gat15req3">Requirements for the 8 Elements/Gates</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td> 60 <img src="assets/images/upgrades/agem.jpg" alt=""> 27 <img src="assets/images/upgrades/agem.jpg" alt=""> 26 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td >120000000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td> 60 <img src="assets/images/upgrades/agem.jpg" alt=""> 27 <img src="assets/images/upgrades/agem.jpg" alt=""> 26 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>120000000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td> 60 <img src="assets/images/upgrades/agem.jpg" alt=""> 27 <img src="assets/images/upgrades/agem.jpg" alt=""> 26 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>120000000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td> 60 <img src="assets/images/upgrades/agem.jpg" alt=""> 27 <img src="assets/images/upgrades/agem.jpg" alt=""> 26 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>120000000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td> 60 <img src="assets/images/upgrades/agem.jpg" alt=""> 27 <img src="assets/images/upgrades/agem.jpg" alt=""> 26 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>120000000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>total</td>
+                                            <td> 60 <img src="assets/images/upgrades/agem.jpg" alt=""> 27 <img src="assets/images/upgrades/agem.jpg" alt=""> 26 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>120000000</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="gatesap14 gatesmenus">
+                                <table class="gatesaps intercol difcol">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="5">8 Elements/Gates for AP 14</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Description</th>
+                                            <th>Requirements</th>
+                                            <th>Lv</th>
+                                            <th>Items</th>
+                                            <th>Gold</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="6" class="gatesname">Element Name</td>
+                                            <td rowspan="6" class="gatreqs">
+                                                <ul>
+                                                    <li class="gatreq1">Requirements for the 8 Elements/Gates</li>
+                                                    <li class="gatreq2">Requirements for the 8 Elements/Gates</li>
+                                                    <li class="gatreq3">Requirements for the 8 Elements/Gates</li>
+                                                </ul>
+                                            </td>
+                                            <td>1</td>
+                                            <td> 60 <img src="assets/images/upgrades/agem.jpg" alt=""> 27 <img src="assets/images/upgrades/agem.jpg" alt=""> 26 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>120000000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td> 60 <img src="assets/images/upgrades/agem.jpg" alt=""> 27 <img src="assets/images/upgrades/agem.jpg" alt=""> 26 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>120000000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td> 60 <img src="assets/images/upgrades/agem.jpg" alt=""> 27 <img src="assets/images/upgrades/agem.jpg" alt=""> 26 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>120000000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td> 60 <img src="assets/images/upgrades/agem.jpg" alt=""> 27 <img src="assets/images/upgrades/agem.jpg" alt=""> 26 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>120000000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td> 60 <img src="assets/images/upgrades/agem.jpg" alt=""> 27 <img src="assets/images/upgrades/agem.jpg" alt=""> 26 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>120000000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>total</td>
+                                            <td> 60 <img src="assets/images/upgrades/agem.jpg" alt=""> 27 <img src="assets/images/upgrades/agem.jpg" alt=""> 26 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>120000000</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="gatesap13 gatesmenus">
+                                <table class="gatesaps intercol difcol">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="5">8 Elements/Gates for AP 13</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Description</th>
+                                            <th>Requirements</th>
+                                            <th>Lv</th>
+                                            <th>Items</th>
+                                            <th>Gold</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="6">Element Name</td>
+                                            <td rowspan="6">
+                                                <ul>
+                                                    <li>Requirements for the 8 Elements/Gates</li>
+                                                    <li>Requirements for the 8 Elements/Gates</li>
+                                                    <li>Requirements for the 8 Elements/Gates</li>
+                                                </ul>
+                                            </td>
+                                            <td>1</td>
+                                            <td> 60 <img src="assets/images/upgrades/agem.jpg" alt=""> 27 <img src="assets/images/upgrades/agem.jpg" alt=""> 26 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>120000000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td> 60 <img src="assets/images/upgrades/agem.jpg" alt=""> 27 <img src="assets/images/upgrades/agem.jpg" alt=""> 26 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>120000000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td> 60 <img src="assets/images/upgrades/agem.jpg" alt=""> 27 <img src="assets/images/upgrades/agem.jpg" alt=""> 26 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>120000000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td> 60 <img src="assets/images/upgrades/agem.jpg" alt=""> 27 <img src="assets/images/upgrades/agem.jpg" alt=""> 26 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>120000000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td> 60 <img src="assets/images/upgrades/agem.jpg" alt=""> 27 <img src="assets/images/upgrades/agem.jpg" alt=""> 26 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>120000000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>total</td>
+                                            <td> 60 <img src="assets/images/upgrades/agem.jpg" alt=""> 27 <img src="assets/images/upgrades/agem.jpg" alt=""> 26 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""> 1 <img src="assets/images/upgrades/agem.jpg" alt=""></td>
+                                            <td>120000000</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="faidsArea tmenus">
+                    <p>8</p>
+                </section>
+            </section>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="legalInfo">
+            <span>KOFGLO is an unofficial site that is in no way affiliated with the KOF brand.
+                All images, videos and other media are copyright to their respective owners;
+                No copyright infrigiment is ever intended. This is merely players run site meant for informational purposes only.
+                If you have any suggestion, question, requirement, or noticed somenthing wrong kindly <a href="mailto:fokglo@gmail.com">contact us</a>.
+            </span>
+        </div>
+    </footer>    
+
+    <script type="text/javascript" src="fdb.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    
+</body>
+</html>
