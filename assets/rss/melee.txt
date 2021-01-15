@@ -1,9 +1,9 @@
 rank		points
 bronze		200
 silver		350
-gold		
-platinum	
-diamond		
+gold		500
+platinum	650
+diamond		850
 master		950
 guru		1050
 
