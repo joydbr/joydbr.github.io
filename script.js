@@ -562,11 +562,28 @@ falrocksoul.map ((item, index)=>{
 
 /* eight elements gates */
 
-c('#gates15').click(()=>{
-    c('.gatesap15').show();
-    c('.gatesap14').hide();
-    c('.gatesap13').hide();
-});
+gatesMenu('gatesap15')
+function gatesMenu(e) {
+    var x, i;
+    x = document.getElementsByClassName("gatesmenus");
+    if (e == "all") e = "";
+    for (i = 0; i < x.length; i++) {
+        removeClass(x[i], "show");
+        if (x[i].className.indexOf(e) > -1) addClass(x[i], "show");
+    }
+}
+
+var gfilt = document.getElementById('gatesmenua');
+var egfilts = gfilt.getElementsByClassName('gatesapm');
+
+for (var i = 0; i < egfilts.length; i++) {
+    egfilts[i].addEventListener("click", function (e) {
+        e.preventDefault();
+        var x = document.getElementsByClassName("active");
+        x[0].className = x[0].className.replace(" active", "");
+        this.className += " active";
+    });
+}
 
 eegdbap15.map((item, index)=>{
     let eegtdes = c('.gatesap15 .gatesaps').cloneNode(true);
