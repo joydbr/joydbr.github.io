@@ -714,6 +714,9 @@ header .fModels {
     text-align: center;
 }
 
+.gatesap15 table:first-child {
+    display: none;
+}
 .gatesaps {
     margin-top: 5px;
     text-align: center;
