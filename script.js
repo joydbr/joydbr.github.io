@@ -594,16 +594,15 @@ eegdbap15.map((item, index)=>{
     eegtdes.querySelector('.gat15req2').innerHTML = item.req[1];
     eegtdes.querySelector('.gat15req3').innerHTML = item.req[2];
     
-    let matitem = [item.rssreq[0], item.rssreq[1], item.rssreq[3], item.rssreq[4], item.rssreq[5], item.rssreq[6]]
+    let matitem = [];
     
     for (let i = 0; i < matitem.length; i++) {
-        if (matitem[i] === '0') {
-            matitem.splice(matitem[i]);
-            console.log(matitem)
+        if (matitem[i] != '0') {
+            matitem.push(`${matitem[i]} `);
         }
     }
 
-    eegtdes.querySelector('.mtotalap15').innerHTML = matitem.toString;
+    eegtdes.querySelector('.mtotalap15').innerHTML = matitem.toString();
 
     eegtdes.querySelector('.totalgold').innerHTML = item.rssreq[2];
 
