@@ -562,6 +562,11 @@ falrocksoul.map ((item, index)=>{
 
 /* eight elements gates */
 
+c('#gates15').click(()=>{
+    c('.gatesap15').show();
+    c('.gatesap14').hide();
+    c('.gatesap13').hide();
+});
 
 eegdbap15.map((item, index)=>{
     let eegtdes = c('.gatesap15 .gatesaps').cloneNode(true);
