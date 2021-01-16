@@ -721,6 +721,9 @@ header .fModels {
     margin-top: 5px;
     text-align: center;
 }
+.eeg15b tr td:nth-child(2) {
+    width: 360px;
+}
 .gatesaps td,
 .gatesaps th {
     padding: 5px 10px;
