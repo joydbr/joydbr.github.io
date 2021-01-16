@@ -599,10 +599,11 @@ eegdbap15.map((item, index)=>{
     for (let i = 0; i < matitem.length; i++) {
         if (matitem[i] === '0') {
             matitem.splice(matitem[i]);
+            console.log(matitem)
         }
     }
 
-    eegtdes.querySelector('.mtotalap15').innerHTML = matitem;
+    eegtdes.querySelector('.mtotalap15').innerHTML = matitem.toString;
 
     eegtdes.querySelector('.totalgold').innerHTML = item.rssreq[2];
 
