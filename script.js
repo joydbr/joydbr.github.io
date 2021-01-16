@@ -595,6 +595,12 @@ eegdbap15.map((item, index)=>{
     eegtdes.querySelector('.gat15req3').innerHTML = item.req[2];
     if (item.rssreq[3] != '0') {
         eegtdes.querySelector('.mtotalap15').innerHTML = `${item.rssreq[0]} ${item.rssreq[1]} ${item.rssreq[3]} ${item.rssreq[4]} ${item.rssreq[5]} ${item.rssreq[6]}`
+    } else if (item.rssreq[4] != '0') {
+        eegtdes.querySelector('.mtotalap15').innerHTML = `${item.rssreq[0]} ${item.rssreq[1]} ${item.rssreq[3]} ${item.rssreq[4]} ${item.rssreq[5]} ${item.rssreq[6]}`
+    } else if (item.rssreq[5] != '0') {
+        eegtdes.querySelector('.mtotalap15').innerHTML = `${item.rssreq[0]} ${item.rssreq[1]} ${item.rssreq[3]} ${item.rssreq[4]} ${item.rssreq[5]} ${item.rssreq[6]}`
+    } else if (item.rssreq[6] != '0') {
+        eegtdes.querySelector('.mtotalap15').innerHTML = `${item.rssreq[0]} ${item.rssreq[1]} ${item.rssreq[3]} ${item.rssreq[4]} ${item.rssreq[5]} ${item.rssreq[6]}`
     }
     
     eegtdes.querySelector('.totalgold').innerHTML = item.rssreq[2];
