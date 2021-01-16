@@ -597,8 +597,9 @@ eegdbap15.map((item, index)=>{
     let matitem = [];
     
     for (let i = 0; i < matitem.length; i++) {
-        if (i != '0') {
-            matitem.push(`${i} `);
+        i = item;
+        if (item != '0') {
+            matitem.push(i);
         }
     }
 
