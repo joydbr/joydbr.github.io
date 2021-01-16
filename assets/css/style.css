@@ -713,6 +713,9 @@ header .fModels {
     flex: 1;
     text-align: center;
 }
+.gatesmenus {
+    display: none;
+}
 
 .gatesap15 table:first-child {
     display: none;
