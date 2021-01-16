@@ -585,6 +585,7 @@ for (var i = 0; i < egfilts.length; i++) {
     });
 }
 
+
 eegdbap15.map((item, index)=>{
     let eegtdes = c('.gatesap15 .gatesaps').cloneNode(true);
 
@@ -593,6 +594,7 @@ eegdbap15.map((item, index)=>{
     eegtdes.querySelector('.gat15req2').innerHTML = item.req[1];
     eegtdes.querySelector('.gat15req3').innerHTML = item.req[2];
 
+    eegtdes.querySelector('#totalgold').innerHTML = item.rssreq[2];
 
     c('.gatesap15').append(eegtdes);
 });
