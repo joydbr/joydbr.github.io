@@ -593,18 +593,37 @@ eegdbap15.map((item, index)=>{
     eegtdes.querySelector('.gat15req1').innerHTML = item.req[0];
     eegtdes.querySelector('.gat15req2').innerHTML = item.req[1];
     eegtdes.querySelector('.gat15req3').innerHTML = item.req[2];
-    
-    let matitem = [];
-    
-    for (let i = 0; i < matitem.length; i++) {
-        i = item;
-        if (item != '0') {
-            matitem.push(i);
-        }
+
+    let rfrag = '';
+    let ragem = '';
+    let rbadg = '';
+    let rtom = '';
+    let rpf = '';
+    let rwea = '';
+
+    if (item.rssreq[0] !== '0') {
+        rfrag = item.rssreq[0] + ' <img src="assets/images/upgrades/agem.jpg"> ';
+    }
+    if (item.rssreq[1] !== '0') {
+        ragem = item.rssreq[1] + ' <img src="assets/images/upgrades/agem.jpg"> ';
+    }
+    if (item.rssreq[3] !== '0') {
+        rbadg = item.rssreq[3] + ' <img src="assets/images/upgrades/agem.jpg"> ';
+    }
+    if (item.rssreq[4] !== '0') {
+        rtom = item.rssreq[4] + ' <img src="assets/images/upgrades/agem.jpg"> ';
+    }
+    if (item.rssreq[5] !== '0') {
+        rpf= item.rssreq[5] + ' <img src="assets/images/upgrades/agem.jpg"> ';
+    }
+    if (item.rssreq[6] !== '0') {
+        rwea = item.rssreq[6] + ' <img src="assets/images/upgrades/agem.jpg"> ';
     }
 
-    eegtdes.querySelector('.mtotalap15').innerHTML = matitem.toString();
+    let matitem = `${rfrag} ${ragem} ${rbadg} ${rtom} ${rpf} ${rwea}`;
 
+    eegtdes.querySelector('.mtotalap15').innerHTML = matitem;
+    
     eegtdes.querySelector('.totalgold').innerHTML = item.rssreq[2];
 
     c('.gatesap15').append(eegtdes);

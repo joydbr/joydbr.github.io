@@ -634,14 +634,14 @@ let eg12rq3 = 'Partners fighters Wind element open';
 /* rssreq [fighter frags, awakening stones, gold, badge, tome, power frag, arma] */
 
 let eegdbap15 = [
-    {gate:'Heaven', req:[hgrq1, hgrq2, hgrq3], rssreq:[25, 6, 6900000, 0, 0, 0, 0]},
-    {gate:'Lake', req:[lgrq1, lgrq2, lgrq3], rssreq:[38, 11, 9000000, 0, 0, 0, 0]},
-    {gate:'Fire', req:[fgrq1, fgrq2, fgrq3], rssreq:[50, 14, 11400000, 0, 0, 0, 0]},
-    {gate:'Thunder', req:[tgrq1, tgrq2, tgrq3], rssreq:[62, 16, 13600000, 1, 0, 0, 0]},
-    {gate:'Wind', req:[wgrq1, wgrq2, wgrq3], rssreq:[75, 20, 18000000, 0, 1, 0, 0]},
-    {gate:'Water', req:[wagrq1, wagrq2, wagrq3], rssreq:[88, 30, 27000000, 1, 1, 24, 1]},
-    {gate:'Mountain/Rock', req:[mgrq1, mgrq2, mgrq3], rssreq:[100, 48, 36000000, 1, 1, 0, 0]},
-    {gate:'Earth', req:[egrq1, egrq2, egrq3], rssreq:[125, 56, 45000000, 2, 2, 45, 3]}
+    {gate:'Heaven', req:[hgrq1, hgrq2, hgrq3], rssreq:[25, 6, 6900000, '0', '0', '0', '0']},
+    {gate:'Lake', req:[lgrq1, lgrq2, lgrq3], rssreq:[38, 11, 9000000, '0', '0', '0', '0']},
+    {gate:'Fire', req:[fgrq1, fgrq2, fgrq3], rssreq:[50, 14, 11400000, '0', '0', '0', '0']},
+    {gate:'Thunder', req:[tgrq1, tgrq2, tgrq3], rssreq:[62, 16, 13600000, '1', '0', '0', '0']},
+    {gate:'Wind', req:[wgrq1, wgrq2, wgrq3], rssreq:[75, 20, 18000000, '0', '1', '0', '0']},
+    {gate:'Water', req:[wagrq1, wagrq2, wagrq3], rssreq:[88, 30, 27000000, '1', '1', '24', '1']},
+    {gate:'Mountain/Rock', req:[mgrq1, mgrq2, mgrq3], rssreq:[100, 48, 36000000, '1', '1', '0', '0']},
+    {gate:'Earth', req:[egrq1, egrq2, egrq3], rssreq:[125, 56, 45000000, '2', '2', '45', '3']}
 ];
 
 let eegdbap14 = [
