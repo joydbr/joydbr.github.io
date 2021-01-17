@@ -645,14 +645,14 @@ let eegdbap15 = [
 ];
 
 let eegdbap14 = [
-    {gate:'Heaven', req:[hg14rq1, hg14rq2, hg14rq3], rssreq:[25, 3, 4500000]},
-    {gate:'Lake', req:[lg14rq1, lg14rq2, lg14rq3], rssreq:[38, 6, 6000000]},
-    {gate:'Fire', req:[fg14rq1, fg14rq2, fg14rq3], rssreq:[50, 9, 7500000]},
-    {gate:'Thunder', req:[tg14rq1, tg14rq2, tg14rq3], rssreq:[62, 11, 9000000, 1]},
-    {gate:'Wind', req:[wg14rq1, wg14rq2, wg14rq3], rssreq:[75, 15, 12000000, 0, 1]},
-    {gate:'Water', req:[wag14rq1, wag14rq2, wag14rq3], rssreq:[88, 23, 18000000, 1, 1, 15, 1]},
-    {gate:'Mountain/Rock', req:[mg14rq1, mg14rq2, mg14rq3], rssreq:[100, 30, 24000000, 1, 1]},
-    {gate:'Earth', req:[eg14rq1, eg14rq2, eg14rq3], rssreq:[140, 31, 30000000, 2, 2, 0, 3]}
+    {gate:'Heaven', req:[hg14rq1, hg14rq2, hg14rq3], rssreq:[25, 3, 4500000, '0', '0', '0', '0']},
+    {gate:'Lake', req:[lg14rq1, lg14rq2, lg14rq3], rssreq:[38, 6, 6000000, '0', '0', '0', '0']},
+    {gate:'Fire', req:[fg14rq1, fg14rq2, fg14rq3], rssreq:[50, 9, 7500000, '0', '0', '0', '0']},
+    {gate:'Thunder', req:[tg14rq1, tg14rq2, tg14rq3], rssreq:[62, 11, 9000000, '1', '0', '0', '0']},
+    {gate:'Wind', req:[wg14rq1, wg14rq2, wg14rq3], rssreq:[75, 15, 12000000, '0', '1', '0', '0']},
+    {gate:'Water', req:[wag14rq1, wag14rq2, wag14rq3], rssreq:[88, 23, 18000000, '1', '1', '15', '1']},
+    {gate:'Mountain/Rock', req:[mg14rq1, mg14rq2, mg14rq3], rssreq:[100, 30, 24000000, '1', '1', '0', '0']},
+    {gate:'Earth', req:[eg14rq1, eg14rq2, eg14rq3], rssreq:[140, 31, 30000000, '2', '2', '0', '3']}
 ];
 
 let eegdbap13 = [
