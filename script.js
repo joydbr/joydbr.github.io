@@ -602,28 +602,28 @@ eegdbap15.map((item, index)=>{
     let rwea = '';
 
     if (item.rssreq[0] !== '0') {
-        rfrag = item.rssreq[0] + ' <img src="assets/images/upgrades/agem.jpg"> ';
+        rfrag = item.rssreq[0] + ' <img src="assets/images/upgrades/pf.jpg"> ';
     }
     if (item.rssreq[1] !== '0') {
         ragem = item.rssreq[1] + ' <img src="assets/images/upgrades/agem.jpg"> ';
     }
     if (item.rssreq[3] !== '0') {
-        rbadg = item.rssreq[3] + ' <img src="assets/images/upgrades/agem.jpg"> ';
+        rbadg = item.rssreq[3] + ' <img src="assets/images/upgrades/badge.jpg"> ';
     }
     if (item.rssreq[4] !== '0') {
-        rtom = item.rssreq[4] + ' <img src="assets/images/upgrades/agem.jpg"> ';
+        rtom = item.rssreq[4] + ' <img src="assets/images/upgrades/tome.jpg"> ';
     }
     if (item.rssreq[5] !== '0') {
-        rpf= item.rssreq[5] + ' <img src="assets/images/upgrades/agem.jpg"> ';
+        rpf= item.rssreq[5] + ' <img src="assets/images/upgrades/pf.jpg"> ';
     }
     if (item.rssreq[6] !== '0') {
-        rwea = item.rssreq[6] + ' <img src="assets/images/upgrades/agem.jpg"> ';
+        rwea = item.rssreq[6] + ' <img src="assets/images/upgrades/weapon.jpg"> ';
     }
 
     let matitem = `${rfrag} ${ragem} ${rbadg} ${rtom} ${rpf} ${rwea}`;
 
     eegtdes.querySelector('.mtotalap15').innerHTML = matitem;
-    
+
     eegtdes.querySelector('.totalgold').innerHTML = item.rssreq[2];
 
     c('.gatesap15').append(eegtdes);
