@@ -724,7 +724,7 @@ header .fModels {
     margin-top: 5px;
     text-align: center;
 }
-.eeg15b tr td:nth-child(1) {
+.eegdesc15 td:nth-child(1) {
     width: 157px;
 }
 .eeg15b tr td:nth-child(2) {
