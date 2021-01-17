@@ -632,11 +632,12 @@ eegdbap15.map((item, index)=>{
 eegdbap14.map((item, index)=>{
     let eegtdes = c('.gatesap15 .gatesaps').cloneNode(true);
 
+    eegtdes.querySelector('.tituloap').innerHTML = '8 Elements/Gates for AP 14';
     eegtdes.querySelector('.gatesname15').innerHTML = item.gate;
     eegtdes.querySelector('.gat15req1').innerHTML = item.req[0];
     eegtdes.querySelector('.gat15req2').innerHTML = item.req[1];
     eegtdes.querySelector('.gat15req3').innerHTML = item.req[2];
-
+    
     let rfrag = '';
     let ragem = '';
     let rbadg = '';
