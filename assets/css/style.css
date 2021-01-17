@@ -63,8 +63,8 @@ main {
 }
 
 .homearea {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 15px;
     margin-top: 20px;
 }
@@ -73,7 +73,6 @@ main {
 .cont2,
 .cont3,
 .cont4 {
-    height: 250px;
     background-color: #ffffff;
     border-radius: 5px;
 }
