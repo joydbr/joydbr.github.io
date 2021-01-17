@@ -628,3 +628,46 @@ eegdbap15.map((item, index)=>{
 
     c('.gatesap15').append(eegtdes);
 });
+
+eegdbap14.map((item, index)=>{
+    let eegtdes = c('.gatesap15 .gatesaps').cloneNode(true);
+
+    eegtdes.querySelector('.gatesname15').innerHTML = item.gate;
+    eegtdes.querySelector('.gat15req1').innerHTML = item.req[0];
+    eegtdes.querySelector('.gat15req2').innerHTML = item.req[1];
+    eegtdes.querySelector('.gat15req3').innerHTML = item.req[2];
+
+    let rfrag = '';
+    let ragem = '';
+    let rbadg = '';
+    let rtom = '';
+    let rpf = '';
+    let rwea = '';
+
+    if (item.rssreq[0] !== '0') {
+        rfrag = item.rssreq[0] + ' <img src="assets/images/upgrades/pf.jpg"> ';
+    }
+    if (item.rssreq[1] !== '0') {
+        ragem = item.rssreq[1] + ' <img src="assets/images/upgrades/agem.jpg"> ';
+    }
+    if (item.rssreq[3] !== '0') {
+        rbadg = item.rssreq[3] + ' <img src="assets/images/upgrades/badge.jpg"> ';
+    }
+    if (item.rssreq[4] !== '0') {
+        rtom = item.rssreq[4] + ' <img src="assets/images/upgrades/tome.jpg"> ';
+    }
+    if (item.rssreq[5] !== '0') {
+        rpf= item.rssreq[5] + ' <img src="assets/images/upgrades/pf.jpg"> ';
+    }
+    if (item.rssreq[6] !== '0') {
+        rwea = item.rssreq[6] + ' <img src="assets/images/upgrades/weapon.jpg"> ';
+    }
+
+    let matitem = `${rfrag} ${ragem} ${rbadg} ${rtom} ${rpf} ${rwea}`;
+
+    eegtdes.querySelector('.mtotalap15').innerHTML = matitem;
+
+    eegtdes.querySelector('.totalgold').innerHTML = item.rssreq[2];
+
+    c('.gatesap14').append(eegtdes);
+});
