@@ -808,3 +808,11 @@ aiddb.map((item, index)=>{
     c('.ap13frag').append(aidmod);
 });
 
+aiddb.map((item, index)=>{
+    let aidmod = c('.aidbody tr').cloneNode(true);
+
+    aidmod.querySelector('td').innerHTML = item.promef;
+    aidmod.classList.add(item.aidr[1]);
+
+    c('.aidefd').append(aidmod);
+});
