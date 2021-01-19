@@ -33,7 +33,7 @@ let fdb = [
     {id:17, avatar:'assets/images/fighters/takuma.jpg', ap:12, name:'Takuma', type:['tank', tankP], soul:['bear', bearP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', ryu:'true'},
     {id:18, avatar:'assets/images/fighters/vice.jpg', ap:12, name:'Vice', type:['dps', dpsP], soul:['bear', bearP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'femal', orochi:'true'},
     {id:19, avatar:'assets/images/fighters/yashiro.jpg', ap:12, name:'Yashiro', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', orochi:'true'},
-    {id:20, avatar:'assets/images/fighters', ap:13, name:'', type:['', ], soul:['', ], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male'},
+    {id:20, avatar:'assets/images/fighters/angel.jpg', ap:13, name:'', type:['', ], soul:['', ], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male'},
     {id:20, avatar:'assets/images/fighters', ap:13, name:'', type:['', ], soul:['', ], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male'}
 ];
 
