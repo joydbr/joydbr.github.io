@@ -34,7 +34,7 @@ let fdb = [
     {id:18, avatar:'assets/images/fighters/vice.jpg', ap:12, name:'Vice', type:['dps', dpsP], soul:['bear', bearP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'femal', orochi:'true'},
     {id:19, avatar:'assets/images/fighters/yashiro.jpg', ap:12, name:'Yashiro', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', orochi:'true'},
     {id:20, avatar:'assets/images/fighters/angel.jpg', ap:13, name:'Angel', type:['dps', dpsP], soul:['viper', viperP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'fmal'},
-    {id:20, avatar:'assets/images/fighters/bao.jpg', ap:13, name:'Bao', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', heal:'true'}
+    {id:21, avatar:'assets/images/fighters/bao.jpg', ap:13, name:'Bao', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', heal:'true'}
 ];
 
 fdb.reverse();
