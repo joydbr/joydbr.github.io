@@ -755,6 +755,24 @@ header .fModels {
     margin-top: 15px;
 }
 
+/* aid */
+
+.aidContent {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.aidContent table:first-child {
+    display: none;
+}
+.aidtab {
+    text-align: center;
+}
+.aidtab th,
+.aidbody td {
+    padding: 5px;
+}
+
 /* basic for all tables*/
 
 .intercol {

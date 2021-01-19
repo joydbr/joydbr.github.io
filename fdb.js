@@ -681,19 +681,19 @@ let eegdbap12 = [
 /* aid */
 
 let aiddb = [
-    {aidr:'Unlock', aps13:['20/50', '1'], aps14:['100', '1']},
-    {aidr:'Green', aps13:[2, 5], aps14:[3, 5]},
-    {aidr:'Green +1', aps13:[5, 5], aps14:[6, 10]},
-    {aidr:'Blue', aps13:[12, 10], aps14:[15, 15]},
-    {aidr:'Blue +1', aps13:[24, 10], aps14:[27, 15]},
-    {aidr:'Purple', aps13:[36, 15], aps14:[42, 20]},
-    {aidr:'Purple +1', aps13:[50, 15], aps14:[60, 20]},
-    {aidr:'Purple +2', aps13:[75, 20], aps14:[81, 25]},
-    {aidr:'Orange', aps13:[100, 20], aps14:[105, 25]},
-    {aidr:'Orange +1', aps13:[120, 25], aps14:[130, 30]},
-    {aidr:'Orange +2', aps13:[150, 30], aps14:[160, 30]},
-    {aidr:'Orange +3', aps13:[180, 30], aps14:[200, 30]},
-    {aidr:'Red', aps13:[], aps14:[100, '40 + Badge/Tome']},
-    {aidr:'Red +1', aps13:[], aps14:[100, '1 Weapon']},
-    {aidr:'Total', aps13:['774/804', 186], aps14:[1129, 266]}
+    {aidr:['Unlock', 'bgwhite'], aps13:['50/20', '1'], aps14:['100', '1']},
+    {aidr:['Green', 'bggreen'], aps13:[2, 5], aps14:[3, 5]},
+    {aidr:['Green +1', 'bggreen'], aps13:[5, 5], aps14:[6, 10]},
+    {aidr:['Blue', 'bgblue'], aps13:[12, 10], aps14:[15, 15]},
+    {aidr:['Blue +1', 'bgblue'], aps13:[24, 10], aps14:[27, 15]},
+    {aidr:['Purple', 'bgpurple'], aps13:[36, 15], aps14:[42, 20]},
+    {aidr:['Purple +1', 'bgpurple'], aps13:[50, 15], aps14:[60, 20]},
+    {aidr:['Purple +2', 'bgpurple'], aps13:[75, 20], aps14:[81, 25]},
+    {aidr:['Orange', 'bgorange'], aps13:[100, 20], aps14:[105, 25]},
+    {aidr:['Orange +1', 'bgorange'], aps13:[120, 25], aps14:[130, 30]},
+    {aidr:['Orange +2', 'bgorange'], aps13:[150, 30], aps14:[160, 30]},
+    {aidr:['Orange +3', 'bgorange'], aps13:[180, 30], aps14:[200, 30]},
+    {aidr:['Red', 'bgred'], aps13:['-', '-'], aps14:[100, '40 + Badge/Tome']},
+    {aidr:['Red +1', 'bgred'], aps13:['-', '-'], aps14:[100, '1 Weapon']},
+    {aidr:['Total', 'bgwhite'], aps13:['774/804', 186], aps14:[1129, 266]}
 ];
