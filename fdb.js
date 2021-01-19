@@ -689,7 +689,7 @@ let aiddb = [
     {aidr:['Purple', 'bgpurple'], aps13:[36, 15], aps14:[42, 20], promef:'Unlock aid skill slot 2'},
     {aidr:['Purple +1', 'bgpurple'], aps13:[50, 15], aps14:[60, 20], promef:'-'},
     {aidr:['Purple +2', 'bgpurple'], aps13:[75, 20], aps14:[81, 25], promef:'Deployable since round 3'},
-    {aidr:['Orange', 'bgorange'], aps13:[100, 20], aps14:[105, 25], promef:'Unlock aid skill slot 2'},
+    {aidr:['Orange', 'bgorange'], aps13:[100, 20], aps14:[105, 25], promef:'Unlock aid skill slot 3'},
     {aidr:['Orange +1', 'bgorange'], aps13:[120, 25], aps14:[130, 30], promef:'-'},
     {aidr:['Orange +2', 'bgorange'], aps13:[150, 30], aps14:[160, 30], promef:'-'},
     {aidr:['Orange +3', 'bgorange'], aps13:[180, 30], aps14:[200, 30], promef:'Deployable since round 1'},
