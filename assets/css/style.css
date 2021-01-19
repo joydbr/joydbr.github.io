@@ -757,6 +757,9 @@ header .fModels {
 
 /* aid */
 
+.faidsArea h1 {
+    margin: 30px;
+}
 .aidContent {
     display: flex;
     justify-content: center;
