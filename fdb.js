@@ -34,13 +34,22 @@ let fdb = [
     {id:18, avatar:'assets/images/fighters/vice.jpg', ap:12, name:'Vice', type:['dps', dpsP], soul:['bear', bearP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'femal', orochi:'true'},
     {id:19, avatar:'assets/images/fighters/yashiro.jpg', ap:12, name:'Yashiro', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', orochi:'true'},
     {id:20, avatar:'assets/images/fighters/angel.jpg', ap:13, name:'Angel', type:['dps', dpsP], soul:['viper', viperP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'fmal'},
-    {id:21, avatar:'assets/images/fighters/bao.jpg', ap:13, name:'Bao', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', heal:'true'}
+    {id:21, avatar:'assets/images/fighters/bao.jpg', ap:13, name:'Bao', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', heal:'true'},
+    {id:22, avatar:'assets/images/fighters/billy.jpg', ap:13, name:'Billy', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', aid:'true'},
+    {id:23, avatar:'assets/images/fighters/mary.jpg', ap:13, name:'Blue Mary', type:['tank', tankP], soul:['bear', bearP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'femal', aid:'true'},
+    {id:24, avatar:'assets/images/fighters/chang.jpg', ap:13, name:'Chang', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male'},
+    {id:25, avatar:'assets/images/fighters/chin.jpg', ap:13, name:'Chin', type:['gank', gankP], soul:['bear', bearP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', flame:'true'}
 ];
+
+/* ,
+    {id:, avatar:'assets/images/fighters/.jpg', ap:13, name:'', type:['', ], soul:['', ], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male'}
+    
+*/
+/*, captain:'true', iSkill:'true', aid:'true', prota:'true', orochi:'true', flame:'true', heal:'true', ikari:'true', ryu:'true'*/
 
 fdb.reverse();
 
 
-/*, captain:'true', iSkill:'true', aid:'true', prota:'true', orochi:'true', flame:'true', heal:'true', ikari:'true', ryu:'true'*/
 /* prom aps [mat principal, mat secundario, enhance potion, ouro]*/
 
 let promdb = [
