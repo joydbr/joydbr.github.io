@@ -292,6 +292,7 @@ header .fModels {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
+    height: fit-content;
 }
 .fModels {
     display: none;
@@ -870,7 +871,7 @@ thead {
     .fcontentArea {
         display: flex;
         flex-direction: column;
-        height: fit-content;
+        margin-right: 5px;
     }
     .fFteam {
         flex-direction: row;
@@ -887,10 +888,6 @@ thead {
     }
     #fFilters div {
         width: auto;
-    }
-
-    .fcontentArea {
-        margin-right: 5px;
     }
 
     .fAvatar img {
