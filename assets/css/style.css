@@ -870,6 +870,7 @@ thead {
     .fcontentArea {
         display: flex;
         flex-direction: column;
+        height: fit-content;
     }
     .fFteam {
         flex-direction: row;
