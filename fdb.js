@@ -89,8 +89,9 @@ let fdb = [
     {id:73, avatar:'assets/images/fighters/robert2002.jpg', ap:14, name:'Robert 2002 UM', type:['dps', dpsP], soul:['tiger', tigerP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', aid:'true', ryu:'true'},
     {id:74, avatar:'assets/images/fighters/rugal.jpg', ap:14, name:'Rugal', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', aid:'true', leaders:'true', orochi:'true'},
     {id:75, avatar:'assets/images/fighters/terry2003.jpg', ap:14, name:'Terry 2003', type:['dps', dpsP], soul:['tiger', tigerP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', captain:'true'},
-    {id:76, avatar:'assets/images/fighters/vanessa.jpg', ap:14, name:'Vanessa', type:['dps', dpsP], soul:['viper', viperP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'femal', aid:'true'},
-    {id:77, avatar:'assets/images/fighters/zero.jpg', ap:14, name:'Zero', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', aid:'true'}
+    {id:76, avatar:'assets/images/fighters/ukyo.jpg', ap:14, name:'Ukyo Tachibana', type:['gank', gankP], soul:['viper', viperP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'fluid'},
+    {id:77, avatar:'assets/images/fighters/vanessa.jpg', ap:14, name:'Vanessa', type:['dps', dpsP], soul:['viper', viperP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'femal', aid:'true'},
+    {id:78, avatar:'assets/images/fighters/zero.jpg', ap:14, name:'Zero', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', aid:'true'}
 ];
 
 /* ,
