@@ -94,7 +94,7 @@ let fdb = [
 ];
 
 /* ,
-    {id:, avatar:'assets/images/fighters/.jpg', ap:14, name:'', type:['', ], soul:['', ], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male'}
+    {id:, avatar:'assets/images/fighters/.jpg', ap:15, name:'', type:['', ], soul:['', ], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male'}
 */
 /*, leaders:'true', captain:'true', iSkill:'true', aid:'true', prota:'true', orochi:'true', flame:'true', heal:'true', ikari:'true', ryu:'true'*/
 
