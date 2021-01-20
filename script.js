@@ -96,8 +96,8 @@ fdb.map((item, index)=>{
     if(item.captain == 'true') {
         fItem.classList.add('captain');
     }
-    if(item.iskill == 'true') {
-        fItem.classList.add('iskill');
+    if(item.iSkill == 'true') {
+        fItem.classList.add('iSkill');
     }
     if(item.prota == 'true') {
         fItem.classList.add('prota');
