@@ -65,14 +65,17 @@ let fdb = [
     {id:49, avatar:'assets/images/fighters/terry.jpg', ap:13, name:'Terry', type:['gank', gankP], soul:['viper', viperP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male'},
     {id:50, avatar:'assets/images/fighters/todo.jpg', ap:13, name:'Todo Kasumi', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'femal'},
     {id:51, avatar:'assets/images/fighters/whip.jpg', ap:13, name:'Whip', type:['gank', gankP], soul:['viper', viperP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'femal', ikari:'true'},
-    {id:52, avatar:'assets/images/fighters/yamazaki.jpg', ap:13, name:'Yamazaki', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', orochi:'true'}
+    {id:52, avatar:'assets/images/fighters/yamazaki.jpg', ap:13, name:'Yamazaki', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', orochi:'true'},
+    {id:53, avatar:'assets/images/fighters/adelheid.jpg', ap:13, name:'Adelheid', type:['dps', dpsP], soul:['bear', bearP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', captain:'true', aid:'true'},
+    {id:54, avatar:'assets/images/fighters/athena2002.jpg', ap:13, name:'Athena 2002 UM', type:['gank', gankP], soul:['viper', viperP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'femal', heal:'true', aid:'true'},
+    {id:55, avatar:'assets/images/fighters/benimaru2003.jpg', ap:13, name:'Benimaru 2003', type:['gank', gankP], soul:['bear', bearP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', aid:'true'},
+    {id:56, avatar:'assets/images/fighters/clone.jpg', ap:13, name:'Clone Zero', type:['dps', dpsP], soul:['tiger', tigerP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male'}
 ];
 
 /* ,
     {id:, avatar:'assets/images/fighters/.jpg', ap:13, name:'', type:['', ], soul:['', ], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male'}
-    
 */
-/*, captain:'true', iSkill:'true', aid:'true', prota:'true', orochi:'true', flame:'true', heal:'true', ikari:'true', ryu:'true'*/
+/*, leaders:'true', captain:'true', iSkill:'true', aid:'true', prota:'true', orochi:'true', flame:'true', heal:'true', ikari:'true', ryu:'true'*/
 
 fdb.reverse();
 

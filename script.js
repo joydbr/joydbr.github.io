@@ -90,6 +90,9 @@ fdb.map((item, index)=>{
     fItem.classList.add(item.type[0]);
     fItem.classList.add(item.soul[0]);
     fItem.classList.add(item.gender);
+    if(item.leaders == 'true') {
+        fItem.classList.add('leaders');
+    }
     if(item.captain == 'true') {
         fItem.classList.add('captain');
     }
