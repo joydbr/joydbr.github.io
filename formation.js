@@ -28,7 +28,7 @@ let firt = [
     {id: 'TIM', title: 'OFM', desc:'increase rear fighters atk 20%', costs:`250000 Gold & 30 Points`},
     {id: 'TIU', title: 'OFU', desc:'increase rear fighters damage 10%', costs:`250000 Gold & 30 Points`},
 
-    {id: 'FT', title: 'Fighting Arts Tree', desc:'', costs:''}
+    {id: 'FT', title: 'Fighting Arts Tree', desc:'Unlock: Player Lv 50 & 150 points in previous tree', costs:''}
 ];
 
 let mkil = [
@@ -46,11 +46,11 @@ let mkil = [
     {id: 'TIM', title: 'OFM', desc:'increase rear fighters atk 20%', costs:`250000 Gold & 30 Points`},
     {id: 'TIU', title: 'OFU', desc:'increase rear fighters damage 10%', costs:`250000 Gold & 30 Points`},
 
-    {id: 'FT', title: 'Master Skill Tree', desc:'', costs:''}
+    {id: 'FT', title: 'Master Skill Tree', desc:'Unlock: Player Lv 70 & 280 points in previous tree', costs:''}
 ];
 
 let pvp = [
-    {id: 'PVP', title: 'PVP Tree', desc:'To unlock tree need previous tree 560 points', costs:'-'},
+    {id: 'PVP', title: 'PVP Tree', desc:'Unlock: Player Lv 80 & 520 points in previous tree', costs:'-'},
 
     {id: 'I', title: 'Arena Tree', desc:'', costs:''},
     {id: 'II', title: 'GEI', desc:'increase hp 560 & atk 70', costs:`250000 Gold & 30 Points`},
