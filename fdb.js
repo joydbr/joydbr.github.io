@@ -128,6 +128,7 @@ let fdb = [
 
 /* ,
     {id:, avatar:'assets/images/fighters/.jpg', ap:15, name:'', type:['', ], soul:['', ], fpart:[gategen, gategen, gategen], gender:'male'}
+    'assets/images/fighters/.jpg'
 */
 /*, leaders:'true', captain:'true', iSkill:'true', aid:'true', prota:'true', orochi:'true', flame:'true', heal:'true', ikari:'true', ryu:'true'*/
 
