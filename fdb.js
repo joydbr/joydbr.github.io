@@ -122,7 +122,8 @@ let fdb = [
     {id:106, avatar:'assets/images/fighters/tk.jpg', ap:15, name:"Transcendence K'", type:['dps', dpsP], soul:['tiger', tigerP], fpart:['assets/images/fighters/kula.jpg', 'assets/images/fighters/maxima.jpg', 'assets/images/fighters/whip.jpg'], gender:'male', prota:'true', flame:'true'},
     {id:107, avatar:'assets/images/fighters/mizuchi.jpg', ap:15, name:'Mizuchi', type:['gank', gankP], soul:['other', otherP], fpart:['assets/images/fighters/leona.jpg', 'assets/images/fighters/iori.jpg', 'assets/images/fighters/orochi.jpg'], gender:'male', captain:'true', orochi:'true'},
     {id:108, avatar:'assets/images/fighters/duolon.jpg', ap:15, name:'Duo Lon', type:['tank', tankP], soul:['viper', viperP], fpart:[gategen, gategen, gategen], gender:'male'},
-    {id:109, avatar:'assets/images/fighters/idkula.jpg', ap:15, name:'Ice Doll Kula', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:[gategen, gategen, gategen], gender:'femal', iSkill:'true'}
+    {id:109, avatar:'assets/images/fighters/idkula.jpg', ap:15, name:'Ice Doll Kula', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:[gategen, gategen, gategen], gender:'femal', iSkill:'true'},
+    {id:110, avatar:'assets/images/fighters/xkarate.jpg', ap:15, name:'Extreme Mr. Karate II', type:['tank', tankP], soul:['tiger', tigerP], fpart:[gategen, gategen, gategen], gender:'male', ryu:'true'}
 ];
 
 /* ,
