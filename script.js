@@ -767,55 +767,15 @@ eegdbap12.map((item, index)=>{
 /* fill aid */
 
 aiddb.map((item, index)=>{
-    let aidmod = c('.aidbody tr').cloneNode(true);
+    let aidmod = c('.aidline').cloneNode(true);
 
-    aidmod.querySelector('td').innerHTML = item.aidr[0];
     aidmod.classList.add(item.aidr[1]);
+    aidmod.querySelector('.aidline td:nth-child(1)').innerHTML = item.aidr[0];
+    aidmod.querySelector('.aidline td:nth-child(2)').innerHTML = item.aps14[0];
+    aidmod.querySelector('.aidline td:nth-child(3)').innerHTML = item.aps14[1];
+    aidmod.querySelector('.aidline td:nth-child(4)').innerHTML = item.aps13[0];
+    aidmod.querySelector('.aidline td:nth-child(5)').innerHTML = item.aps13[1];
+    aidmod.querySelector('.aidline td:nth-child(6)').innerHTML = item.promef;
 
     c('.aidprom').append(aidmod);
-});
-
-aiddb.map((item, index)=>{
-    let aidmod = c('.aidbody tr').cloneNode(true);
-
-    aidmod.querySelector('td').innerHTML = item.aps14[0];
-    aidmod.classList.add(item.aidr[1]);
-
-    c('.ap14aid').append(aidmod);
-});
-
-aiddb.map((item, index)=>{
-    let aidmod = c('.aidbody tr').cloneNode(true);
-
-    aidmod.querySelector('td').innerHTML = item.aps14[1];
-    aidmod.classList.add(item.aidr[1]);
-
-    c('.ap14frag').append(aidmod);
-});
-
-aiddb.map((item, index)=>{
-    let aidmod = c('.aidbody tr').cloneNode(true);
-
-    aidmod.querySelector('td').innerHTML = item.aps13[0];
-    aidmod.classList.add(item.aidr[1]);
-
-    c('.ap13aid').append(aidmod);
-});
-
-aiddb.map((item, index)=>{
-    let aidmod = c('.aidbody tr').cloneNode(true);
-
-    aidmod.querySelector('td').innerHTML = item.aps13[1];
-    aidmod.classList.add(item.aidr[1]);
-
-    c('.ap13frag').append(aidmod);
-});
-
-aiddb.map((item, index)=>{
-    let aidmod = c('.aidbody tr').cloneNode(true);
-
-    aidmod.querySelector('td').innerHTML = item.promef;
-    aidmod.classList.add(item.aidr[1]);
-
-    c('.aidefd').append(aidmod);
 });
