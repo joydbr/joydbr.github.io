@@ -734,7 +734,7 @@ let eegdbap15 = [
     {gate:'Thunder', req:[tgrq1, tgrq2, tgrq3], rssreq:[62, 16, 13600000, '1', '0', '0', '0']},
     {gate:'Wind', req:[wgrq1, wgrq2, wgrq3], rssreq:[75, 20, 18000000, '0', '1', '0', '0']},
     {gate:'Water', req:[wagrq1, wagrq2, wagrq3], rssreq:[88, 30, 27000000, '1', '1', '24', '1']},
-    {gate:'Mountain/Rock', req:[mgrq1, mgrq2, mgrq3], rssreq:[100, 48, 36000000, '1', '1', '0', '0']},
+    {gate:'Mountain<br/>Rock', req:[mgrq1, mgrq2, mgrq3], rssreq:[100, 48, 36000000, '1', '1', '0', '0']},
     {gate:'Earth', req:[egrq1, egrq2, egrq3], rssreq:[125, 56, 45000000, '2', '2', '45', '3']}
 ];
 
@@ -745,7 +745,7 @@ let eegdbap14 = [
     {gate:'Thunder', req:[tg14rq1, tg14rq2, tg14rq3], rssreq:[62, 11, 9000000, '1', '0', '0', '0']},
     {gate:'Wind', req:[wg14rq1, wg14rq2, wg14rq3], rssreq:[75, 15, 12000000, '0', '1', '0', '0']},
     {gate:'Water', req:[wag14rq1, wag14rq2, wag14rq3], rssreq:[88, 23, 18000000, '1', '1', '15', '1']},
-    {gate:'Mountain/Rock', req:[mg14rq1, mg14rq2, mg14rq3], rssreq:[100, 30, 24000000, '1', '1', '0', '0']},
+    {gate:'Mountain<br/>Rock', req:[mg14rq1, mg14rq2, mg14rq3], rssreq:[100, 30, 24000000, '1', '1', '0', '0']},
     {gate:'Earth', req:[eg14rq1, eg14rq2, eg14rq3], rssreq:[140, 31, 30000000, '2', '2', '0', '3']}
 ];
 
@@ -756,7 +756,7 @@ let eegdbap13 = [
     {gate:'Thunder', req:[tg13rq1, tg13rq2, tg13rq3], rssreq:[50, 9, 5920000, '1', '0', '0', '0']},
     {gate:'Wind', req:[wg13rq1, wg13rq2, wg13rq3], rssreq:[60, 10, 8040000, '0', '0', '0', '0']},
     {gate:'Water', req:[wag13rq1, wag13rq2, wag13rq3], rssreq:[70, 15, 12000000, '1', '1', '10', '1']},
-    {gate:'Mountain/Rock', req:[mg13rq1, mg13rq2, mg13rq3], rssreq:[80, 20, 16000000, '0', '1', '0', '0']},
+    {gate:'Mountain<br/>Rock', req:[mg13rq1, mg13rq2, mg13rq3], rssreq:[80, 20, 16000000, '0', '1', '0', '0']},
     {gate:'Earth', req:[eg13rq1, eg13rq2, eg13rq3], rssreq:[100, 30, 20000000, '1', '1', '20', '2']}
 ];
 
@@ -767,7 +767,7 @@ let eegdbap12 = [
     {gate:'Thunder', req:[tg12rq1, tg12rq2, tg12rq3], rssreq:[38, 4, 4800000, '1', '0', '0', '0']},
     {gate:'Wind', req:[wg12rq1, wg12rq2, wg12rq3], rssreq:[48, 8, 6300000, '0', '0', '0', '0']},
     {gate:'Water', req:[wag12rq1, wag12rq2, wag12rq3], rssreq:[56, 4, 96000000, '0', '0', '5', '1']},
-    {gate:'Mountain/Rock', req:[mg12rq1, mg12rq2, mg12rq3], rssreq:[64, 48, 12800000, '0', '1', '0', '0']},
+    {gate:'Mountain<br/>Rock', req:[mg12rq1, mg12rq2, mg12rq3], rssreq:[64, 48, 12800000, '0', '1', '0', '0']},
     {gate:'Earth', req:[eg12rq1, eg12rq2, eg12rq3], rssreq:[80, 10, 16000000, '1', '1', '10', '0']}
 ];
 
