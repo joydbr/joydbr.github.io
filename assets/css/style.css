@@ -707,6 +707,9 @@ header .fModels {
 
 /* 8 Elements Gates*/
 
+.fgatesArea h1 {
+    margin: 30px;
+}
 .gatescontent {
     margin-top: 25px;
 }
