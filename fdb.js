@@ -11,7 +11,7 @@ const otherP = 'assets/images/souls/sother.png';
 const goldP = 'assets/images/misc/coin.png';
 
 /* female = femal, to filter to work */
-let gategen = 'assets/images/fighters/fpart1.jpg';
+let gatesgen = 'assets/images/fighters/fpart1.jpg';
 
 let fdb = [
     {id:1, avatar:'assets/images/fighters/kim.jpg', ap:11, name:'Kim', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:[gatesgen, gatesgen, gatesgen], gender:'male', aid:'true'},
