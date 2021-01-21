@@ -971,6 +971,11 @@ thead {
     .fsoulcontent div {
         margin-bottom: 15px;
     }
+
+    .gatesaps td,
+    .gatesaps th {
+        padding: 3px 3px;
+    }
     
     .aidContent {
         display: block;
