@@ -11,10 +11,10 @@ const otherP = 'assets/images/souls/sother.png';
 const goldP = 'assets/images/misc/coin.png';
 
 /* female = femal, to filter to work */
-
+let gategen = 'assets/images/fighters/fpart1.jpg';
 
 let fdb = [
-    {id:1, avatar:'assets/images/fighters/kim.jpg', ap:11, name:'Kim', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male', aid:'true'},
+    {id:1, avatar:'assets/images/fighters/kim.jpg', ap:11, name:'Kim', type:['tank', tankP], soul:['tortoise', tortoiseP], fpart:[gatesgen, gatesgen, gatesgen], gender:'male', aid:'true'},
     {id:2, avatar:'assets/images/fighters/yuri.jpg', ap:11, name:'Yuri', type:['dps', dpsP], soul:['viper', viperP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'femal', aid:'true', ryu:'true'},
     {id:3, avatar:'assets/images/fighters/andy.jpg', ap:12, name:'Andy', type:['gank', gankP], soul:['viper', viperP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'male'},
     {id:4, avatar:'assets/images/fighters/athena.jpg', ap:12, name:'Athena', type:['gank', gankP], soul:['tiger', tigerP], fpart:['assets/images/fpart1.png', 'assets/images/fpart2.png', 'assets/images/fpart3.png'], gender:'femal', aid:'true', heal:'true'},
