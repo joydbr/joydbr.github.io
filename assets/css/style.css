@@ -969,10 +969,13 @@ thead {
         margin-bottom: 15px;
     }
     
+    .aidContent {
+        display: block;
+    }
     .aidtab {
         margin: 5px;
     }
-    
+
     footer {
         margin: 10px;
         text-align: center;
