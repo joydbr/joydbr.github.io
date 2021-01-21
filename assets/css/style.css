@@ -723,7 +723,7 @@ header .fModels {
     display: none;
 }
 .gatesaps {
-    margin-top: 5px;
+    margin: 5px;
     text-align: center;
 }
 .eegdesc15 td:nth-child(1) {
