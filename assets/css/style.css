@@ -4,7 +4,7 @@
     box-sizing: border-box;
     }
 body {    
-    color: #dac50e;
+    color: #dddddd;
     background-color: #333333;
     font-family: Luckiest Guy;
     overflow-x: hidden;
@@ -832,7 +832,7 @@ thead {
     background-color: #259925;
 }
 .bgyellow {
-    background-color: #eeee8a;
+    background-color: #d3d201;
 }
 .bgblue {
     background-color: #3636ce;
