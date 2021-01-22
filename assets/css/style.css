@@ -837,28 +837,28 @@ thead {
 }
 
 .bggreen {
-    background-color: #259925;
+    background-color: #259925c0;
 }
 .bgyellow {
-    background-color: #d3d201;
+    background-color: #d3d301c0;
 }
 .bgblue {
-    background-color: #3636ce;
+    background-color: #3636cec0;
 }
 .bgblupur {
-    background-color: #7e7ea7c9;
+    background-color: #7e7ea7c0;
 }
 .bgpurple {
-    background-color: #912b91;
+    background-color: #912b91c0;
 }
 .bgorange {
-    background-color: #e4990f;
+    background-color: #e4990fc0;
 }
 .bgred {
-    background-color: #fd2020;
+    background-color: #fd2020c0;
 }
 .active {
-    background-color: #b2b5b8c7;
+    background-color: #b2b5b8c0;
 }
 
 @media (min-width:450px) and (max-width:800px) {
