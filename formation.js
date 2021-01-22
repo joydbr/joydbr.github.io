@@ -53,39 +53,39 @@ let pvp = [
     {id: 'PVP', title: 'PVP Tree<hr>', desc:'Unlock: Player Lv 80 & 520 points in previous tree', costs:''},
 
     {id: 'I', title: 'Arena Tree', desc:'', costs:''},
-    {id: 'II', title: 'GEI', desc:'increase hp 560 & atk 70', costs:'415000 Gold & 36 Points'},
-    {id: 'III', title: 'DF', desc:'increase front fighters hp 1500', costs:'415000 Gold & 36 Points'},
-    {id: 'IV', title: 'DFM', desc:'increase front fighters hp 20%', costs:'415000 Gold & 36 Points'},
+    {id: 'II', title: 'Arena I<hr>', desc:'Increases fighters ATK by 200 & HP by 1000<hr>', costs:'415000 Gold & 36 Points'},
+    {id: 'III', title: 'Arena II<hr>', desc:'Increases fighters DMG & Res Rate by 2%<hr>', costs:'415000 Gold & 36 Points'},
+    {id: 'IV', title: 'Arena III<hr>', desc:'Increases fighters ULT DMG & ULT Resistance by 2%<hr>', costs:'415000 Gold & 36 Points'},
 
     {id: 'V', title: 'Tournament Tree', desc:'', costs:''},
-    {id: 'VI', title: 'GEI', desc:'increase hp 560 & atk 70', costs:'415000 Gold & 36 Points'},
-    {id: 'VII', title: 'DF', desc:'increase front fighters hp 1500', costs:'415000 Gold & 36 Points'},
-    {id: 'VIII', title: 'DFM', desc:'increase front fighters hp 20%', costs:'415000 Gold & 36 Points'},
+    {id: 'VI', title: 'KOF Tournament I<hr>', desc:'Increases fighters ATK by 200 & HP by 1000<hr>', costs:'415000 Gold & 36 Points'},
+    {id: 'VII', title: 'KOF Tournament II<hr>', desc:'Increases fighters DMG & Res Rate by 2%<hr>', costs:'415000 Gold & 36 Points'},
+    {id: 'VIII', title: 'KOF Tournament III<hr>', desc:'Increases fighters ULT DMG & ULT Resistance by 2%<hr>', costs:'415000 Gold & 36 Points'},
 
     {id: 'IX', title: 'Club Battle Tree', desc:'', costs:''},
-    {id: 'X', title: 'GEI', desc:'increase hp 560 & atk 70', costs:'415000 Gold & 36 Points'},
-    {id: 'XI', title: 'DF', desc:'increase front fighters hp 1500', costs:'415000 Gold & 36 Points'},
-    {id: 'XII', title: 'DFM', desc:'increase front fighters hp 20%', costs:'415000 Gold & 36 Points'},
+    {id: 'X', title: 'Club Battle I<hr>', desc:'Increases fighters ATK by 200 & HP by 1000<hr>', costs:'415000 Gold & 36 Points'},
+    {id: 'XI', title: 'Club Battle II<hr>', desc:'Increases fighters DMG & Res Rate by 2%<hr>', costs:'415000 Gold & 36 Points'},
+    {id: 'XII', title: 'Club Battle III<hr>', desc:'Increases fighters ULT DMG & ULT Resistance by 2%<hr>', costs:'415000 Gold & 36 Points'},
 
     {id: 'XIII', title: 'Honor Battle Tree', desc:'', costs:''},
-    {id: 'XIV', title: 'GEI', desc:'increase hp 560 & atk 70', costs:'415000 Gold & 36 Points'},
-    {id: 'XV', title: 'DF', desc:'increase front fighters hp 1500', costs:'415000 Gold & 36 Points'},
-    {id: 'XVI', title: 'DFM', desc:'increase front fighters hp 20%', costs:'415000 Gold & 36 Points'},
+    {id: 'XIV', title: 'Honor Duel I<hr>', desc:'Increases fighters ATK by 200 & HP by 1000<hr>', costs:'415000 Gold & 36 Points'},
+    {id: 'XV', title: 'Honor Duel II<hr>', desc:'Increases fighters DMG & Res Rate by 2%<hr>', costs:'415000 Gold & 36 Points'},
+    {id: 'XVI', title: 'Honor Duel III<hr>', desc:'Increases fighters ULT DMG & ULT Resistance by 2%<hr>', costs:'415000 Gold & 36 Points'},
 
     {id: 'XVII', title: 'Cross-Server Tournament Tree', desc:'', costs:''},
-    {id: 'XVIII', title: 'GEI', desc:'increase hp 560 & atk 70', costs:'415000 Gold & 36 Points'},
-    {id: 'XIX', title: 'DF', desc:'increase front fighters hp 1500', costs:'415000 Gold & 36 Points'},
-    {id: 'XX', title: 'DFM', desc:'increase front fighters hp 20%', costs:'415000 Gold & 36 Points'},
+    {id: 'XVIII', title: 'Cross-Server Tournament I<hr>', desc:'Increases fighters ATK by 200 & HP by 1000<hr>', costs:'415000 Gold & 36 Points'},
+    {id: 'XIX', title: 'Cross-Server Tournament II<hr>', desc:'Increases fighters DMG & Res Rate by 2%<hr>', costs:'415000 Gold & 36 Points'},
+    {id: 'XX', title: 'Cross-Server Tournament III<hr>', desc:'Increases fighters ULT DMG & ULT Resistance by 2%<hr>', costs:'415000 Gold & 36 Points'},
 
     {id: 'XXI', title: 'Cross-Server Loot Battle Tree', desc:'', costs:''},
-    {id: 'XXII', title: 'GEI', desc:'increase hp 560 & atk 70', costs:'415000 Gold & 36 Points'},
-    {id: 'XXIII', title: 'DF', desc:'increase front fighters hp 1500', costs:'415000 Gold & 36 Points'},
-    {id: 'XXIV', title: 'DFM', desc:'increase front fighters hp 20%', costs:'415000 Gold & 36 Points'},
+    {id: 'XXII', title: 'Cross-Server Loot Battle I<hr>', desc:'Increases fighters ATK by 200 & HP by 1000<hr>', costs:'415000 Gold & 36 Points'},
+    {id: 'XXIII', title: 'Cross-Server Loot Battle II<hr>', desc:'Increases fighters DMG & Res Rate by 2%<hr>', costs:'415000 Gold & 36 Points'},
+    {id: 'XXIV', title: 'Cross-Server Loot Battle III<hr>', desc:'Increases fighters ULT DMG & ULT Resistance by 2%<hr>', costs:'415000 Gold & 36 Points'},
 
     {id: 'XXV', title: 'Cross-Server Arena Tree', desc:'', costs:''},
-    {id: 'XXVI', title: 'GEI', desc:'increase hp 560 & atk 70', costs:'415000 Gold & 36 Points'},
-    {id: 'XXVII', title: 'DF', desc:'increase front fighters hp 1500', costs:'415000 Gold & 36 Points'},
-    {id: 'XXVIII', title: 'DFM', desc:'increase front fighters hp 20%', costs:'415000 Gold & 36 Points'}
+    {id: 'XXVI', title: 'Cross-Server Arena I<hr>', desc:'Increases fighters ATK by 200 & HP by 1000<hr>', costs:'415000 Gold & 36 Points'},
+    {id: 'XXVII', title: 'Cross-Server Arena II<hr>', desc:'Increases fighters DMG & Res Rate by 2%<hr>', costs:'415000 Gold & 36 Points'},
+    {id: 'XXVIII', title: 'Cross-Server Arena III<hr>', desc:'Increases fighters ULT DMG & ULT Resistance by 2%<hr>', costs:'415000 Gold & 36 Points'}
 ];
 
 /* tab fashion */
