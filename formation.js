@@ -1,14 +1,14 @@
 /* tab talents */
 let form = [
-    {id: 'GEI', title: 'General Enhancement I', desc:'Increase front fighters HP by 800 & rear fighters ATK by 100', costs:'415000 Gold & 36 Points'},
+    {id: 'GEI', title: 'General Enhancement I <hr>', desc:'Increase front fighters HP by 800 & rear fighters ATK by 100 <hr>', costs:'415000 Gold & 36 Points'},
 
-    {id: 'DF', title: 'Defense Formation', desc:'Increase front fighters HP by 1600', costs:'415000 Gold & 36 Points'},
-    {id: 'DFM', title: 'Defense Formation Modified', desc:'Increase front fighters HP by 20%', costs:'415000 Gold & 36 Points'},
-    {id: 'DFU', title: 'Defense Formation Ultimate', desc:'Increase front fighters Res Rate by 10%', costs:'415000 Gold & 36 Points'},
+    {id: 'DF', title: 'Defense Formation<hr>', desc:'Increase front fighters HP by 1600<hr>', costs:'415000 Gold & 36 Points'},
+    {id: 'DFM', title: 'Defense Formation Modified<hr>', desc:'Increase front fighters HP by 20%<hr>', costs:'415000 Gold & 36 Points'},
+    {id: 'DFU', title: 'Defense Formation Ultimate<hr>', desc:'Increase front fighters Res Rate by 10%<hr>', costs:'415000 Gold & 36 Points'},
 
-    {id: 'OF', title: 'Offensive Formation', desc:'Increase front fighters ATK by 200', costs:'415000 Gold & 36 Points'},
-    {id: 'OFM', title: 'Offensive Formation Modified', desc:'Increase front fighters ATK by 20%', costs:'415000 Gold & 36 Points'},
-    {id: 'OFU', title: 'Offensive Formation Ultimate', desc:'Increase front fighters Damage by 10%', costs:'415000 Gold & 36 Points'},
+    {id: 'OF', title: 'Offensive Formation<hr>', desc:'Increase front fighters ATK by 200<hr>', costs:'415000 Gold & 36 Points'},
+    {id: 'OFM', title: 'Offensive Formation Modified<hr>', desc:'Increase front fighters ATK by 20%<hr>', costs:'415000 Gold & 36 Points'},
+    {id: 'OFU', title: 'Offensive Formation Ultimate<hr>', desc:'Increase front fighters Damage by 10%<hr>', costs:'415000 Gold & 36 Points'},
 
     {id: 'FT', title: 'Formation Tree', desc:'', costs:''}
 ];
