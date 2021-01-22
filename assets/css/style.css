@@ -294,6 +294,9 @@ footer {
     margin: auto;
     text-align: center;
 }
+.artfacttab td {
+    padding: 5px;
+}
 
 /*fighters*/
 
