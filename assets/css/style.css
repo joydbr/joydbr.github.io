@@ -119,6 +119,9 @@ footer {
     display: none;
     height: fit-content;
 }
+.tmenus h1 {
+    margin: 30px;
+}
 .tform,
 .tfirt,
 .tmkil {
