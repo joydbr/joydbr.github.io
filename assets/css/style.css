@@ -284,6 +284,12 @@ footer {
     grid-area: XXVIII;
 }
 
+.halltab th,
+.halltab tr {
+    padding: 5px;
+    text-align: center;
+}
+
 /*fighters*/
 
 .fightersarea{
@@ -862,7 +868,7 @@ thead {
         width: 25%;
     }
 
-    /* tem area*/
+    /* team area*/
     #tmarea a {
         width: 35%;
     }
