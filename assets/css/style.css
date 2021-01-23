@@ -302,6 +302,15 @@ footer {
     width: 70px;
 }
 
+.FStab {
+    text-align: center;
+    margin: auto;
+}
+.FStab th,
+.FStab td {
+    padding: 5px;
+}
+
 /*fighters*/
 
 .fightersarea{
