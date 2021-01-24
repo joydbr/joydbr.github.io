@@ -90,3 +90,36 @@ let pvp = [
 
 /* tab fashion */
 
+let fashiondb = [
+    {fname:'Kim', skin:'Warrior', fimg:'',stats:'DEF +300 <br><hr> Block +3% <br><hr> ATK +40',cost:'💎777'},
+    {fname:'Momoko', skin:'High Schooler', fimg:'',stats:'ATK +360 <br><hr> DMG +3% <br><hr> ATK +40',cost:'💎1277'},
+    {fname:'O. Shermie', skin:'Red Robe', fimg:'',stats:'ATK +360 <br><hr> ULT DMG +4% <br><hr> ATK +40',cost:'💎2777'},
+    {fname:'Todo', skin:'Taisho Girl', fimg:'',stats:'ATK +360 <br><hr> Res Rate +3% <br><hr> ATK +40',cost:'💎2077'},
+    {fname:'Yamazaki', skin:'Gambling Master', fimg:'',stats:'ATK +300 <br><hr> HP Drain +3% <br><hr> ATK +40',cost:'💎1577'},
+    {fname:'Mary', skin:'Varsity Jacket', fimg:'',stats:'DEF +300 <br><hr> Res Rate +3% <br><hr> DEF +15',cost:'💎2077'},
+    {fname:'Yuri', skin:'Summer Swimsuit', fimg:'',stats:'ATK +300 <br><hr> Crit +3% <br><hr> ATK +40',cost:'💎1777'},
+    {fname:'O. Chris', skin:'Fashion Icon', fimg:'',stats:'ATK +360 <br><hr> DMG +3% <br><hr> ATK +40',cost:'💎2777'},
+    {fname:'Athena', skin:'Red Dream', fimg:'',stats:'ATK 280 <br><hr> DEF +260 <br><hr> DEF +15',cost:'💎1077'},
+    {fname:'Athena', skin:'Witch Heart', fimg:'',stats:'ATK +360 <br><hr> HP +2000 <br><hr> HP +400',cost:'💎2777'},
+    {fname:'Angel', skin:'Wrestler', fimg:'',stats:'ATK +360 <br><hr> DMG +3% <br><hr> ATK +40',cost:'💎1777'},
+    {fname:'Iori', skin:'Red Prince', fimg:'',stats:'ATK +500 <br><hr> DEF +400 <br><hr> ATK +40',cost:'💎2077'},
+    {fname:'Iori', skin:'Dark Musician', fimg:'',stats:'ATK +500 <br><hr> Priority +35 <br><hr> ATK +40',cost:'💎2777'},
+    {fname:'Iori', skin:'Blue Whirlwind', fimg:'',stats:'ATK +500 <br><hr> DEF +400 <br><hr> DEF +20',cost:'💎2077'},
+    {fname:'Shizuru', skin:'Korean Dress', fimg:'',stats:'ATK +300 <br><hr> HP +2000 <br><hr> HP +400',cost:'💎1777'},
+    {fname:'Leona', skin:'Mercenary Spirit', fimg:'',stats:'ATK +360 <br><hr> ULT DMG +4% <br><hr> ATK +40',cost:'💎2077'},
+    {fname:'Kyo', skin:'Red Fire', fimg:'',stats:'ATK +300 <br><hr> DEF +240 <br><hr> ATK +40',cost:'💎777'},
+    {fname:'Mai', skin:'Blossoms', fimg:'',stats:'ATK +360 <br><hr> DEF +260 <br><hr> DEF +15',cost:'💎2777'},
+    {fname:'Mai', skin:'Sexy Bunny', fimg:'',stats:'ATK +300 <br><hr> DEF +260 <br><hr> DEF +15',cost:'💎2077'},
+    {fname:'Robert', skin:'Butler', fimg:'',stats:'ATK +360 <br><hr> DMG +3% <br><hr> ATK +40',cost:'💎2077'},
+    {fname:'Shermie', skin:'Pretty Nurse', fimg:'',stats:'ATK +500 <br><hr> DMG +3% <br><hr> ATK +40',cost:'💎1077'},
+    {fname:'O. Yashiro', skin:'Rock Singer', fimg:'',stats:'DEF +300 <br><hr> Res Rate +3% <br><hr> DEF +15',cost:'💎2777'},
+    {fname:'Kensou', skin:'Kung Fu', fimg:'',stats:'ATK +280 <br><hr> Heal +10% <br><hr> ATK +40',cost:'💎777'},
+    {fname:'Terry', skin:'Baseball Uniform', fimg:'',stats:'ATK +300 <br><hr> DMG +3% <br><hr> ATK +40',cost:'💎2777'}
+
+];
+
+/*
+,
+    {fname:'', skin:'', fimg:'',stats:'',cost:''}
+
+*/
