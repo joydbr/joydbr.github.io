@@ -112,5 +112,5 @@ fashiondb.map ((item, index)=>{
     fcardm.querySelector('.fcost').innerHTML = item.cost;
 
 
-    c('.fcontentarea').append(fcardm);
+    c('.fashioncontarea').append(fcardm);
 });
