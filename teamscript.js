@@ -99,3 +99,18 @@ pvp.map((i, index)=>{
 
     c('.tpvp').append (tfItem);
 });
+
+
+/* fashion */
+
+fashiondb.map ((item, index)=>{
+    let fcardm = c('.fcard').cloneNode(true);
+
+    fcardm.querySelector('.fname').innerHTML = item.skin;
+    fcardm.querySelector('.fcard img').src = item.fimg;
+    fcardm.querySelector('.fstats').innerHTML = item.stats;
+    fcardm.querySelector('.fcost').innerHTML = item.cost;
+
+
+    c('.fcontentarea').append(fcardm);
+});

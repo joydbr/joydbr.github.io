@@ -311,6 +311,29 @@ footer {
     padding: 5px;
 }
 
+.fashioncontarea {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.fcard:first-child {
+    display: none;
+}
+.fcard {
+    width: 150px;
+    background-color: #7e7ea7c0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    text-align: center;
+}
+.fcard img {
+    border-radius: 20px;
+}
+
+
 /*fighters*/
 
 .fightersarea{
