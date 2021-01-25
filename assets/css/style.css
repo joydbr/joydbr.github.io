@@ -296,7 +296,6 @@ footer {
     width: 70px;
 }
 
-
 .fashioncontarea {
     display: flex;
     gap: 10px;
@@ -319,6 +318,9 @@ footer {
     border-radius: 20px;
 }
 
+.achievetab {
+    margin-bottom: 15px;
+}
 
 /*fighters*/
 
