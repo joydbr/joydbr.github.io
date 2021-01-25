@@ -322,6 +322,11 @@ footer {
     margin-bottom: 15px;
 }
 
+.ptcard img {
+    width: 160px;
+    height: 139px;
+}
+
 /*fighters*/
 
 .fightersarea{
