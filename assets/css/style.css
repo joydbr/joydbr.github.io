@@ -329,6 +329,9 @@ footer {
     width: fit-content;
     align-items: center;
     margin: auto;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
 }
 .ptcard img {
     width: 160px;
