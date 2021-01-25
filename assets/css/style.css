@@ -283,18 +283,12 @@ footer {
 #XXVIII {
     grid-area: XXVIII;
 }
-
-.halltab th,
-.halltab tr {
-    padding: 5px;
+.patab {
     text-align: center;
-}
-
-.artfacttab {
     margin: auto;
-    text-align: center;
 }
-.artfacttab td {
+.patab th,
+.patab td {
     padding: 5px;
 }
 
@@ -302,14 +296,6 @@ footer {
     width: 70px;
 }
 
-.FStab {
-    text-align: center;
-    margin: auto;
-}
-.FStab th,
-.FStab td {
-    padding: 5px;
-}
 
 .fashioncontarea {
     display: flex;
