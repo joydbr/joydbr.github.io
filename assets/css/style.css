@@ -327,6 +327,7 @@ footer {
     flex-direction: column;
     width: fit-content;
     align-items: center;
+    margin: auto;
 }
 .ptcard img {
     width: 160px;
