@@ -435,8 +435,8 @@ let dfabase = [{
 
 /* fighters skills*/
 /* xp [passive, ultimate, skill, dmg] */
-/* sport team has 30% less cost upgrade */
-/* some discrepancy saisyu*/
+/* sport team has 30% less cost upgrade */ 
+
 let fskilldb = [
     {lv:2, xp15:['?', '?', '?', '?'], xp14:[2500, 1500, 1000, 100], xp13:[1250, 750, 500, 1250], xp12:[1000, 750, 500, 1250]},
     {lv:3, xp15:['?', '?', '?', '?'], xp14:[2750, 1650, 1100, 100], xp13:[1375, 825, 550, 1375], xp12:[1100, 825, 550, 1375]},
