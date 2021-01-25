@@ -126,7 +126,7 @@ footer {
 .tform,
 .tfirt,
 .tmkil {
-    max-width: 1140px;
+    width: fit-content;
     display: grid;
     gap: 5px;
     margin-top: 30px;
@@ -176,7 +176,7 @@ footer {
 }
 
 .tpvp {
-    max-width: 1140px;
+    width: fit-content;
     display: grid;
     gap: 5px;
     margin-top: 30px;
