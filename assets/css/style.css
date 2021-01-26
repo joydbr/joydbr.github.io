@@ -405,7 +405,7 @@ header .fModels {
 }
 #fFilters {
     width: 230px;
-    height: 450px;
+    height: fit-content;
     flex-direction: column;
     margin-top: 15px;
     padding-left: 10px;
