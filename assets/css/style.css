@@ -651,6 +651,9 @@ header .fModels {
 
 /* evolve*/
 
+.fevolArea {
+    margin: auto;
+}
 .fevolArea h1 {
     margin: 30px;
 }
@@ -726,6 +729,7 @@ header .fModels {
 .skillsap1514,
 .skillsap1312 {
     display: none;
+    margin: auto;
 }
 .skapcont {
     gap: 10px;
@@ -777,6 +781,9 @@ header .fModels {
 
 /* 8 Elements Gates*/
 
+.fgatesArea {
+    margin: auto;
+}
 .fgatesArea h1 {
     margin: 30px;
 }
