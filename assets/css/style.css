@@ -937,6 +937,10 @@ thead {
         width: 35%;
     }
 
+    .runetab {
+        width: auto;
+    }
+
     /* fighters area*/
 
     .submenuteam nav {
