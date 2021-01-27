@@ -937,6 +937,11 @@ thead {
         width: 35%;
     }
 
+    .protectcont {
+        flex-direction: column;
+        gap: 15px;
+    }
+
     .runetab {
         width: auto;
     }
