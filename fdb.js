@@ -415,22 +415,6 @@ let equipedb = [
 ];
 
 
-let blessdb = [
-    {lv:1, bcrystals:100},
-    {lv:2, bcrystals:100},
-    {lv:3, bcrystals:150},
-    {lv:4, bcrystals:200},
-    {lv:5, bcrystals:300},
-    {lv:6, bcrystals:400},
-    {lv:7, bcrystals:550},
-    {lv:8, bcrystals:700},
-    {lv:9, bcrystals:850},
-    {lv:10, bcrystals:1000},
-    {lv:11, bcrystals:1500},
-    {lv:12, bcrystals:2000}
-];
-
-
 /* dark force awaken base */
 
 let dfabase = [{

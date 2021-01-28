@@ -645,9 +645,6 @@ header .fModels {
     border: 1px solid #c0c0c0a6;
     padding: 5px;
 }
-.blesstab tfoot tr:first-child {
-    display: none;
-}
 
 /* evolve*/
 

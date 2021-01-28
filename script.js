@@ -343,14 +343,6 @@ equipedb.map((item, index)=>{
     c('.eqq13 tbody').append(ees13);
 });
 
-blessdb.map((item, index)=>{
-    let blessup = c('.blessline').cloneNode(true);
-
-    blessup.querySelector('.blv').innerHTML = item.lv;
-    blessup.querySelector('.bwc').innerHTML = item.bcrystals;
-
-    c('.blesstab tbody').append(blessup);
-});
 
 /* to fill dark force */
 
