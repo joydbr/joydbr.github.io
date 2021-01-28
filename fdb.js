@@ -293,12 +293,6 @@ let equipedb = [
 ];
 
 
-/* dark force awaken base */
-
-let dfabase = [{
-    lv:1, dpb:[5, 15, 0.2, 0.1], gdb:[5, 8, 0.08, 0.08], tdb:[5, 50, 0.2, 0.1]
-}];
-
 /* fighters skills*/
 /* xp [passive, ultimate, skill, dmg] */
 /* sport team has 30% less cost upgrade */ 
