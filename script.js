@@ -79,6 +79,7 @@ fdb.map((item, index)=>{
     let fItem = c('.fModels').cloneNode(true);
 
     fItem.querySelector('.fAvatar img').src = item.avatar;
+    fItem.querySelector('.fAvatar img').title = item.name;
     fItem.querySelector('.fName').innerHTML = item.name;
     fItem.querySelector('.fAp').innerHTML = `AP ${item.ap}`;
     fItem.querySelector('.fType img').src = item.type[1];
