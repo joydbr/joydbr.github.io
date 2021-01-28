@@ -844,9 +844,6 @@ header .fModels {
     justify-content: center;
     margin-top: 20px;
 }
-.aidContent table:first-child {
-    display: none;
-}
 .aidtab {
     text-align: center;
 }

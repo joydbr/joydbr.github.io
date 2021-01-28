@@ -755,18 +755,3 @@ eegdbap12.map((item, index)=>{
     c('.gatesap12').append(eegtdes);
 });
 
-/* fill aid */
-
-aiddb.map((item, index)=>{
-    let aidmod = c('.aidline').cloneNode(true);
-
-    aidmod.classList.add(item.aidr[1]);
-    aidmod.querySelector('.aidline td:nth-child(1)').innerHTML = item.aidr[0];
-    aidmod.querySelector('.aidline td:nth-child(2)').innerHTML = item.aps14[0];
-    aidmod.querySelector('.aidline td:nth-child(3)').innerHTML = item.aps14[1];
-    aidmod.querySelector('.aidline td:nth-child(4)').innerHTML = item.aps13[0];
-    aidmod.querySelector('.aidline td:nth-child(5)').innerHTML = item.aps13[1];
-    aidmod.querySelector('.aidline td:nth-child(6)').innerHTML = item.promef;
-
-    c('.aidprom').append(aidmod);
-});
