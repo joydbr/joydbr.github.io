@@ -213,49 +213,6 @@ promdb.map((item, index)=>{
 });
 
 
-/* js to fill up exp */
-
-updb.map ((item, index)=>{
-    let upxp = c('.upxpinfo').cloneNode(true);
-
-    upxp.querySelector('.xplv').innerHTML = item.lv;
-    upxp.querySelector('.xpnum').innerHTML = item.xp[0];
-    
-
-    c('.xptab15 tbody').append(upxp);
-});
-
-updb.map ((item, index)=>{
-    let upxp = c('.upxpinfo').cloneNode(true);
-
-    upxp.querySelector('.xplv').innerHTML = item.lv;
-    upxp.querySelector('.xpnum').innerHTML = item.xp[1];
-    
-
-    c('.xptab14 tbody').append(upxp);
-});
-
-updb.map ((item, index)=>{
-    let upxp = c('.upxpinfo').cloneNode(true);
-
-    upxp.querySelector('.xplv').innerHTML = item.lv;
-    upxp.querySelector('.xpnum').innerHTML = item.xp[2];
-    
-
-    c('.xptab13 tbody').append(upxp);
-});
-
-updb.map ((item, index)=>{
-    let upxp = c('.upxpinfo').cloneNode(true);
-
-    upxp.querySelector('.xplv').innerHTML = item.lv;
-    upxp.querySelector('.xpnum').innerHTML = item.xp[3];
-    
-
-    c('.xptab12 tbody').append(upxp);
-});
-
-
 /* js equip filters menu */
 
 equipmenufilt("enhanceArea")
