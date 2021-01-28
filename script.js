@@ -121,8 +121,6 @@ fdb.map((item, index)=>{
         fItem.classList.add('aid');
     }
 
-
-
     c('.fcontentArea').append (fItem);
 });
 
