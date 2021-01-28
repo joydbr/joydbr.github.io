@@ -501,59 +501,6 @@ fskilldb.map ((item, index)=>{
 });
 
 
-
-
-/* js to fill fs */
-
-figsoul.map ((item, index)=>{
-    let ffsoul = c('.fstrmodel').cloneNode(true);
-
-    ffsoul.querySelector('.fslv').innerHTML = item.lv;
-    ffsoul.querySelector('.fseap15').innerHTML = item.xp[0];
-    ffsoul.querySelector('.fseap14').innerHTML = item.xp[1];
-    ffsoul.querySelector('.fseap13').innerHTML = item.xp[2];
-    ffsoul.querySelector('.fseap12').innerHTML = item.xp[3];
-
-    c('.fsoularea table tbody').append(ffsoul);
-});
-
-
-pohesoul.map ((item, index)=>{
-    let fpsoul = c('.fstrmodel').cloneNode(true);
-
-    fpsoul.querySelector('.fslv').innerHTML = item.lv;
-    fpsoul.querySelector('.fseap15').innerHTML = item.xp[0];
-    fpsoul.querySelector('.fseap14').innerHTML = item.xp[1];
-    fpsoul.querySelector('.fseap13').innerHTML = item.xp[2];
-    fpsoul.querySelector('.fseap12').innerHTML = item.xp[3];
-
-    c('.fpharea table tbody').append(fpsoul);
-});
-
-falrocksoul.map ((item, index)=>{
-    let ffasoul = c('.fstrmodel').cloneNode(true);
-
-    ffasoul.querySelector('.fslv').innerHTML = item.lv;
-    ffasoul.querySelector('.fseap15').innerHTML = item.xp[0];
-    ffasoul.querySelector('.fseap14').innerHTML = item.xp[1];
-    ffasoul.querySelector('.fseap13').innerHTML = item.xp[2];
-    ffasoul.querySelector('.fseap12').innerHTML = item.xp[3];
-
-    c('.fsfarea table tbody').append(ffasoul);
-});
-
-falrocksoul.map ((item, index)=>{
-    let frsoul = c('.fstrmodel').cloneNode(true);
-
-    frsoul.querySelector('.fslv').innerHTML = item.lv;
-    frsoul.querySelector('.fseap15').innerHTML = item.xp[0];
-    frsoul.querySelector('.fseap14').innerHTML = item.xp[1];
-    frsoul.querySelector('.fseap13').innerHTML = item.xp[2];
-    frsoul.querySelector('.fseap12').innerHTML = item.xp[3];
-
-    c('.fsrsarea table tbody').append(frsoul);
-});
-
 /* eight elements gates */
 
 gatesMenu('gatesap15')
