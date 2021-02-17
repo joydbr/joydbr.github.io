@@ -422,10 +422,10 @@ fskilldb.map ((item, index)=>{
     let fskill = c('.skilltabinfo').cloneNode(true);
 
     fskill.querySelector('.skilltablv').innerHTML = item.lv;
-    fskill.querySelector('.skilltabpass').innerHTML = item.xp14[0];
-    fskill.querySelector('.skilltabult').innerHTML = item.xp14[1];
-    fskill.querySelector('.skilltabsk').innerHTML = item.xp14[2];
-    fskill.querySelector('.skilltabdmg').innerHTML = item.xp14[3];
+    fskill.querySelector('.skilltabpass').innerHTML = item.xp15[0];
+    fskill.querySelector('.skilltabult').innerHTML = item.xp15[1];
+    fskill.querySelector('.skilltabsk').innerHTML = item.xp15[2];
+    fskill.querySelector('.skilltabdmg').innerHTML = item.xp15[3];
 
 
     c('.skilltabcont14').append(fskill);
