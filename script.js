@@ -377,32 +377,6 @@ for(let i = 1; i < 100; i++) {
 };
 
 
-
-/* filter for skill */
-
-skmenuap('skillsap1514')
-function skmenuap(e) {
-    var x, i;
-    x = document.getElementsByClassName("skmenu");
-    if (e == "all") e = "";
-    for (i = 0; i < x.length; i++) {
-        removeClass(x[i], "show");
-        if (x[i].className.indexOf(e) > -1) addClass(x[i], "show");
-    }
-}
-
-var sfilt = document.getElementById('skmenus');
-var ssfilts = sfilt.getElementsByClassName('skfilter');
-
-for (var i = 0; i < ssfilts.length; i++) {
-    ssfilts[i].addEventListener("click", function (e) {
-        e.preventDefault();
-        var x = document.getElementsByClassName("active");
-        x[0].className = x[0].className.replace(" active", "");
-        this.className += " active";
-    });
-}
-
 /* js to fill skills */
 
 fskilldb.map ((item, index)=>{
@@ -416,19 +390,6 @@ fskilldb.map ((item, index)=>{
 
 
     c('.skilltabcont15').append(fskill);
-});
-
-fskilldb.map ((item, index)=>{
-    let fskill = c('.skilltabinfo').cloneNode(true);
-
-    fskill.querySelector('.skilltablv').innerHTML = item.lv;
-    fskill.querySelector('.skilltabpass').innerHTML = item.xp15[0];
-    fskill.querySelector('.skilltabult').innerHTML = item.xp15[1];
-    fskill.querySelector('.skilltabsk').innerHTML = item.xp15[2];
-    fskill.querySelector('.skilltabdmg').innerHTML = item.xp15[3];
-
-
-    c('.skilltabcont14').append(fskill);
 });
 
 fskilldb.map ((item, index)=>{

@@ -713,16 +713,10 @@ header .fModels {
 .fskillArea h1 {
     margin: 30px;
 }
-.skfilters a {
-    flex: auto;
-    text-align: center;
-}
 .fskillcontent {
     flex-direction: column;
 }
-.skillsap1514,
-.skillsap1312 {
-    display: none;
+.skillsap1514 {
     margin: auto;
 }
 .skapcont {
