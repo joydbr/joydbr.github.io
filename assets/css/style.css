@@ -860,7 +860,8 @@ header .fModels {
 
 
 /* class for all site*/
-thead {
+thead,
+tfoot {
     background-color: #7e7ea7c9;
 }
 .show {
